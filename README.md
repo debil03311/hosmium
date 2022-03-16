@@ -4,9 +4,9 @@ A Discord bot that will hopefully do things.
 
 ## Setup
 
-1. Create a file called `config.json` in the hosmium's root directory (where `main.js` is located)
+1. Create a file called `config.json` in hosmium's root directory (where `main.js` is located)
 2. Open it and paste this inside:
-   ```
+   ```json
    {
        "prefix": "h!",
        "token": "PUT YOUR BOT'S TOKEN HERE",
