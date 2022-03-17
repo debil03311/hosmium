@@ -21,7 +21,7 @@ function shortenText(text, maxVisible, filler = "...") {
     const textStart = text.slice(0, maxVisible);
     const textEnd = text.slice(text.length - maxVisible, text.length);
 
-    return textStart + "..." + textEnd;
+    return textStart + filler + textEnd;
 }
 
 module.exports = {
@@ -57,7 +57,7 @@ module.exports = {
             const url = `http://rats.chat/aes.php?method=${method}&text=${encodedArguments[1]}&key=${encodedArguments[2]}&bits=`;
 
             // If the original text is too big
-            const textDisplay = shortenText(commandArguments[1], 16);
+            const textDisplay = shortenText(commandArguments[1], 16, "__...__");
 
             // Default bot color
             messageEmbed.color = config.color;
@@ -79,7 +79,7 @@ module.exports = {
             const url = `http://rats.chat/aes.php?method=${method}&text=${encodedArguments[1]}&key=${encodedArguments[2]}&bits=`;
 
             // If the original text is too big
-            const textDisplay = shortenText(commandArguments[1], 16);
+            const textDisplay = shortenText(commandArguments[1], 16, "__...__");
 
             messageEmbed.title
                 = `:unlock: Decrypted __${textDisplay}__ with key __${commandArguments[2]}__`
