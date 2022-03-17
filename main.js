@@ -106,7 +106,7 @@ bot.on('ready', ()=> {
 
     // Set bot status
     bot.user.setActivity({
-        type: "LISTENING",
-        name: "in over 2 billion servers!",
+        type: "WATCHING",
+        name: "over 2 billion servers!",
     })
 });
