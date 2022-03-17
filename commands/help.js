@@ -1,11 +1,5 @@
+const quoteList = require("../quotes.json")
 const { MessageEmbed } = require("discord.js");
-
-const quotes = [
-    "'PIRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRKELE'\n- Finnish guy on Phasmophobia, 2021",
-    "'Herobrine tried to eat my dummy thicc ass'\n- Гönк, cca. 2020",
-    "'the sykkuno-corpsehusband bussy piping incident'\n- Math, 2022",
-    "\\*racial slurs*\n- British VRChat sandwich, 2021",
-]
 
 /**
  * Create a Discord embed field for a given command
@@ -36,7 +30,7 @@ module.exports = {
     description: "You literally just used this.",
     aliases: [
         "commands",
-        "cmds"
+        "cmds",
     ],
     arguments: [
         "command?"
@@ -45,7 +39,7 @@ module.exports = {
     execute({ bot, message, commandArguments, commandList, config }={}) {
         // Initialize Discord embed without any entries
         const helpEmbed = new MessageEmbed({
-            color: "#987353",
+            color: config.color,
             // For some reason .addField() doesn't want to work
             fields: [],
 
@@ -70,20 +64,21 @@ module.exports = {
             
             // If the argument is an invalid command name
             catch (ERROR) {
-                message.reply(
+                return message.reply(
                     `No such command: \`${commandArguments[0]}\` (${ERROR.name})`);
-
-                return;
             }
         }
 
         else {
+            // Get a random quote
+            const quote = quoteList[ ~~(Math.random() * quoteList.length) ];
+
             // Set embed headers for command list
             helpEmbed.setTitle("Inhale the hosmium <:imagineTheSmelle:953441999518830712>")
-                .setDescription(
-                    quotes[
-                        Math.floor(Math.random() * quotes.length)
-                    ])
+                .setDescription(`
+                        *${quote.text}*
+                        — **${quote.source}**, ${quote.year}
+                    `.trim())
                 .setThumbnail(config.botLogoImage)
 
             for (const commandName of commandList.keys()) {

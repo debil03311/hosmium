@@ -6,6 +6,16 @@ module.exports = {
     hidden: true,
 
     execute({ message } = {}) {
-        message.channel.send("test");
+        // 
+
+        message.reply({
+            text: "test",
+            embeds: [],
+
+            // Without pinging
+            allowedMentions: {
+                repliedUser: false
+            }
+        });
     }
 }

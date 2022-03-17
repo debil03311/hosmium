@@ -54,10 +54,18 @@ bot.on("messageCreate", (message) => {
     if (!message.content.startsWith(config.prefix))
         return;
 
+    // If you see this, I'm so tired.
+    // I don't know why apostrophes don't get escaped
+    // and the argument parser doesn't know what to do
+    // with them. This will have to do for now.
+
     // Remove prefix from the string and split by spaces
     const commandArguments = parseArgsStringToArgv(
-        message.content.slice(config.prefix.length)
-    );
+            message.content
+                .replace(/'/g, "%APOSTROPHE%")
+                .slice(config.prefix.length)
+        )
+        .map((argument)=> argument.replace(/%APOSTROPHE%/g, "\'"))
 
     const commandName = commandArguments[0];
 
@@ -74,9 +82,9 @@ bot.on("messageCreate", (message) => {
     });
 });
 
-bot.login(config.token);
+bot.login(config.botToken);
 bot.on('ready', ()=> {
     const date = new Date();
-    const timestamp = `${date.getHours()}${date.getMinutes()}`;
+    const timestamp = `${date.getHours()} ${date.getMinutes()}`;
     console.log(`[${timestamp}] Bot is online`)
 });
