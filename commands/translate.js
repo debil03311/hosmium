@@ -1,5 +1,6 @@
-const deepl = require("deepl");
 const { MessageEmbed } = require("discord.js");
+const deepl = require("deepl");
+const config = require("../config.json");
 
 const languages = [
     {
@@ -140,7 +141,7 @@ const languages = [
     },{
         code: "ZH",
         fullName: "Chinese",
-        flag: ":flag_zh:",
+        flag: ":flag_cn:",
         names: ["zh", "cn", "chi", "zho", "chinese", "zhongwen", "中文"]
     }
 ]
@@ -163,7 +164,7 @@ module.exports = {
         "text",
     ],
 
-    execute({ message, commandArguments, config } = {}) {
+    execute({ message, commandArguments } = {}) {
         if (!config.deeplApiKey) {
             return message.reply(
                 "```arm\nError: Mising API key for DeepL```");
@@ -212,7 +213,7 @@ module.exports = {
                     description: translation.text,
                 });
 
-                message.reply({
+                return message.reply({
                     embeds: [
                         translationEmbed
                     ],
@@ -225,7 +226,7 @@ module.exports = {
             })
             .catch((ERROR)=> {
                 console.error(ERROR);
-                message.reply("```arm\n"+ERROR+"```");
+                return message.reply("```arm\n"+ERROR+"```");
             })
     }
 }

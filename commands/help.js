@@ -1,5 +1,6 @@
-const quoteList = require("../quotes.json")
 const { MessageEmbed } = require("discord.js");
+const config = require("../config.json");
+const quoteList = require("../quotes.json");
 
 /**
  * Create a Discord embed field for a given command
@@ -36,7 +37,7 @@ module.exports = {
         "command?"
     ],
 
-    execute({ bot, message, commandArguments, commandList, config }={}) {
+    execute({ message, commandArguments, commandList }={}) {
         // Initialize Discord embed without any entries
         const helpEmbed = new MessageEmbed({
             color: config.color,
@@ -94,7 +95,7 @@ module.exports = {
             }
         }
 
-        message.reply({
+        return message.reply({
             embeds: [
                 helpEmbed
             ],

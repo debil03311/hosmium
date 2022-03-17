@@ -1,6 +1,7 @@
 const { MessageEmbed } = require("discord.js");
 const cloudscraper = require("cloudscraper");
 const cheerio = require("cheerio");
+const config = require("../config");
 
 module.exports = {
     description: "Search the web for an image.",
@@ -13,7 +14,7 @@ module.exports = {
         "query"
     ],
 
-    async execute({ message, commandArguments, config } = {}) {
+    async execute({ message, commandArguments } = {}) {
         if (!commandArguments.length) {
             return message.reply(
                 "This command requires an argument.");
@@ -53,7 +54,7 @@ module.exports = {
             title: "Open Image",
             description: `
                 Query: ${joinedArguments}
-                Result: ${urls.indexOf(imageUrl) + 1}/${resultAmount}
+                Result: ${urls.indexOf(imageUrl) + 1} (${resultAmount})
             `.trim(),
             url: imageUrl,
 
@@ -66,7 +67,7 @@ module.exports = {
             }
         });
 
-        message.reply({
+        return message.reply({
             embeds: [
                 imageEmbed
             ],

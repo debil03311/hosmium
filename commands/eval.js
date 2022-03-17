@@ -21,7 +21,9 @@ module.exports = {
             result = "yaml\n" + ERROR.message;
         }
 
-        message.reply({
+        console.log("EVAL END")
+
+        return message.reply({
             content: `\`\`\`${result}\`\`\``,
 
             // Without pinging
@@ -29,7 +31,5 @@ module.exports = {
                 repliedUser: false
             }
         });
-
-        console.log("EVAL END")
     }
 }

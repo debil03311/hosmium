@@ -8,7 +8,7 @@ module.exports = {
         // Subtract message timestamp from the current milliseconds
         const time = new Date().getTime() - message.createdTimestamp;
 
-        message.reply({
+        return message.reply({
             content: `<:mxneco:952948316340117524> ${time}ms, señor.`,
 
             // Without pinging

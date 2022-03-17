@@ -76,15 +76,37 @@ bot.on("messageCreate", (message) => {
     commands.get(commandName)?.execute({
         bot: bot,
         message: message,
-        config: config,
         commandArguments: commandArguments,
         commandList: commands,
     });
 });
 
+/**
+ * Prepend zeroes to a single digit number
+ * @param {Number} digit 
+ * @param {Number} amount
+ * @returns String
+ */
+function prefixZero(digit, amount = 0) {
+    digit = Math.abs(digit).toString();
+
+    if (digit > 10)
+        return digit;
+
+    return digit.padStart(amount+1, "0")
+}
+
 bot.login(config.botToken);
 bot.on('ready', ()=> {
     const date = new Date();
-    const timestamp = `${date.getHours()} ${date.getMinutes()}`;
-    console.log(`[${timestamp}] Bot is online`)
+    const hour = prefixZero(date.getHours(), 1);
+    const minute = prefixZero(date.getMinutes(), 1);
+
+    console.log(`[${hour}:${minute}] Bot is online`)
+
+    // Set bot status
+    bot.user.setActivity({
+        type: "LISTENING",
+        name: "in over 2 billion servers!",
+    })
 });

@@ -1,11 +1,11 @@
 const fs = require("fs");
+const config = require("../config.json");
 
 module.exports = {
     description: "Show the bot's current prefix.",
 
-    execute({ message, config }={}) {
-        // Reply with the current prefix if no arguments then exit
-        message.reply({
+    execute({ message }={}) {
+        return message.reply({
             content: `My prefix is \`${config.prefix}\``,
 
             // Without pinging

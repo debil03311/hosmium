@@ -1,7 +1,6 @@
 module.exports = {
-    description: "",
-    aliases: [],
-    arguments: [],
+    description: "ᗜˬᗜ",
+    // arguments: [],
 
     hidden: true,
 

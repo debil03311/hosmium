@@ -1,7 +1,7 @@
 module.exports = {
     description: "Available encodings: binary, base32, base36/alphanumeric, base64",
     aliases: [
-        "decrypt"
+        "dec"
     ],
     arguments: [
         "string",
@@ -13,6 +13,6 @@ module.exports = {
 
 
     execute({ message }={}) {
-        message.channel.send("test");
+        return message.channel.send("test");
     }
 }
