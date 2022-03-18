@@ -14,6 +14,7 @@
     "cloudscraper": "^4.6.0",
     "deepl": "^1.0.13",
     "discord.js": "^13.6.0",
+    "fumo-api": "^3.0.4",
     "string-argv": "^0.3.1"
   }
 }
