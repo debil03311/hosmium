@@ -29,10 +29,8 @@ async function replyWithFumo(message, isRandom = true, fumoId = "") {
             description: "<:cirnofancy:954173256947077140> Your fumo, sir.",
         });
 
-        // TODO: Find a way to embed video files.
-
         if (isVideo) {
-            fumoEmbed.title = ":globe_with_meridians: Open Video"
+            fumoEmbed.title = "Open Video"
             fumoEmbed.video = {
                 url: fumo.URL,
             }
@@ -48,7 +46,7 @@ async function replyWithFumo(message, isRandom = true, fumoId = "") {
             }
         }
 
-        return message.reply({
+        message.reply({
             embeds: [
                 fumoEmbed,
             ],
@@ -58,6 +56,9 @@ async function replyWithFumo(message, isRandom = true, fumoId = "") {
                 repliedUser: false
             }
         });
+
+        // TODO: Find a way to embed video files.
+        (isVideo) && message.channel.send(fumo.URL);
     }
     
     catch (ERROR) {
