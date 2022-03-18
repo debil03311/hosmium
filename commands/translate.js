@@ -11,12 +11,12 @@ const languages = [
     },{
         code: "CS",
         fullName: "Czech",
-        flag: ":flag_cs:",
+        flag: ":flag_cz:",
         names: ["cs", "cze", "ces", "czech", "cestina", "cheshtina", "cesky", "chesky", "čeština", "český"]
     },{
         code: "DA",
         fullName: "Danish",
-        flag: ":flag_da:",
+        flag: ":flag_dk:",
         names: ["da", "dan", "danish", "dansk"]
     },{
         code: "DE",
@@ -26,7 +26,7 @@ const languages = [
     },{
         code: "EL",
         fullName: "Greek",
-        flag: ":flag_el:",
+        flag: ":flag_gr:",
         names: ["el", "ell", "gre", "greek", "ellinika", "ελληνικά"]
     },{
         code: "EN",
@@ -76,7 +76,7 @@ const languages = [
     },{
         code: "JA",
         fullName: "Japanese",
-        flag: ":flag_ja:",
+        flag: ":flag_jp:",
         names: ["ja", "jp", "jap", "jpn", "japanese", "nihongo", "nippongo", "wago", "日本語", "和語"]
     },{
         code: "LT",
