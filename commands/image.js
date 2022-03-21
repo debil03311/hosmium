@@ -11,7 +11,7 @@ module.exports = {
         "pic",
     ],
     arguments: [
-        "query"
+        "...query"
     ],
 
     async execute({ message, commandArguments } = {}) {

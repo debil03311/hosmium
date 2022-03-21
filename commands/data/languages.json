@@ -1,0 +1,317 @@
+[
+    {
+        "code": "BG",
+        "fullName": "Bulgarian",
+        "flag": ":flag_bg:",
+        "names": [
+            "bg",
+            "bul",
+            "bulgarian",
+            "balgarski",
+            "български"
+        ]
+    },{
+        "code": "CS",
+        "fullName": "Czech",
+        "flag": ":flag_cz:",
+        "names": [
+            "cs",
+            "cze",
+            "ces",
+            "czech",
+            "cestina",
+            "cheshtina",
+            "cesky",
+            "chesky",
+            "čeština",
+            "český"
+        ]
+    },{
+        "code": "DA",
+        "fullName": "Danish",
+        "flag": ":flag_dk:",
+        "names": [
+            "da",
+            "dan",
+            "danish",
+            "dansk"
+        ]
+    },{
+        "code": "DE",
+        "fullName": "German",
+        "flag": ":flag_de:",
+        "names": [
+            "de",
+            "deu",
+            "ger",
+            "german",
+            "deutsch"
+        ]
+    },{
+        "code": "EL",
+        "fullName": "Greek",
+        "flag": ":flag_gr:",
+        "names": [
+            "el",
+            "ell",
+            "gre",
+            "greek",
+            "ellinika",
+            "ελληνικά"
+        ]
+    },{
+        "code": "EN",
+        "fullName": "English",
+        "flag": ":flag_us:",
+        "names": [
+            "en",
+            "eng",
+            "english"
+        ]
+    },{
+        "code": "EN-US",
+        "fullName": "American English",
+        "flag": ":flag_us:",
+        "names": [
+            "en-us",
+            "us"
+        ]
+    },{
+        "code": "EN-GB",
+        "fullName": "British English",
+        "flag": ":flag_gb:",
+        "names": [
+            "en-gb",
+            "gb"
+        ]
+    },{
+        "code": "ES",
+        "fullName": "Spanish",
+        "flag": ":flag_es:",
+        "names": [
+            "es",
+            "esp",
+            "spa",
+            "spanish",
+            "espanol",
+            "español"
+        ]
+    },{
+        "code": "ET",
+        "fullName": "Estonian",
+        "flag": ":flag_et:",
+        "names": [
+            "et",
+            "est",
+            "estonian",
+            "eesti"
+        ]
+    },{
+        "code": "FI",
+        "fullName": "Finnish",
+        "flag": ":flag_fi:",
+        "names": [
+            "fi",
+            "fin",
+            "finnish",
+            "suomen"
+        ]
+    },{
+        "code": "FR",
+        "fullName": "French",
+        "flag": ":flag_fr:",
+        "names": [
+            "fr",
+            "fra",
+            "french",
+            "francais",
+            "français"
+        ]
+    },{
+        "code": "HU",
+        "fullName": "Hungarian",
+        "flag": ":flag_hu:",
+        "names": [
+            "hu",
+            "hun",
+            "hungarian",
+            "magyar"
+        ]
+    },{
+        "code": "IT",
+        "fullName": "Italian",
+        "flag": ":flag_it:",
+        "names": [
+            "it",
+            "ita",
+            "italian",
+            "italiano",
+            "italiana"
+        ]
+    },{
+        "code": "JA",
+        "fullName": "Japanese",
+        "flag": ":flag_jp:",
+        "names": [
+            "ja",
+            "jp",
+            "jap",
+            "jpn",
+            "japanese",
+            "nihongo",
+            "nippongo",
+            "wago",
+            "日本語",
+            "和語"
+        ]
+    },{
+        "code": "LT",
+        "fullName": "Lithuanian",
+        "flag": ":flag_lt:",
+        "names": [
+            "lt",
+            "lit",
+            "lithuanian",
+            "lietuviu",
+            "lietuvių"
+        ]
+    },{
+        "code": "LV",
+        "fullName": "Latvian",
+        "flag": ":flag_lv:",
+        "names": [
+            "lv",
+            "lav",
+            "latvian",
+            "latviešu"
+        ]
+    },{
+        "code": "NL",
+        "fullName": "Dutch",
+        "flag": ":flag_nl:",
+        "names": [
+            "nl",
+            "ndl",
+            "dut",
+            "dutch",
+            "nederlands"
+        ]
+    },{
+        "code": "PL",
+        "fullName": "Polish",
+        "flag": ":flag_pl:",
+        "names": [
+            "pl",
+            "pol",
+            "polish",
+            "polski"
+        ]
+    },{
+        "code": "PT",
+        "fullName": "Portuguese",
+        "flag": ":flag_pt:",
+        "names": [
+            "pt",
+            "por",
+            "prt",
+            "portuguese",
+            "portugues",
+            "português"
+        ]
+    },{
+        "code": "PT-PT",
+        "fullName": "Portuguese",
+        "flag": ":flag_pt:",
+        "names": [
+            "pt-pt"
+        ]
+    },{
+        "code": "PT-BR",
+        "fullName": "Brazillian Portuguese",
+        "flag": ":flag_br:",
+        "names": [
+            "pt-br",
+            "br",
+            "bra",
+            "brz",
+            "brazillian"
+        ]
+    },{
+        "code": "RO",
+        "fullName": "Romanian",
+        "flag": ":flag_ro:",
+        "names": [
+            "ro",
+            "rou",
+            "rom",
+            "romanian",
+            "romana",
+            "română"
+        ]
+    },{
+        "code": "RU",
+        "fullName": "Russian",
+        "flag": ":flag_ru:",
+        "names": [
+            "ru",
+            "rus",
+            "russian",
+            "russkij",
+            "russkii",
+            "ruski",
+            "русский"
+        ]
+    },{
+        "code": "SK",
+        "fullName": "Slovak",
+        "flag": ":flag_sk:",
+        "names": [
+            "sk",
+            "slo",
+            "slk",
+            "slovak",
+            "slovencina",
+            "slovenchina",
+            "slovensky",
+            "slovenčina",
+            "slovenský"
+        ]
+    },{
+        "code": "SL",
+        "fullName": "Slovene",
+        "flag": ":flag_sl:",
+        "names": [
+            "sl",
+            "slv",
+            "slovene",
+            "slovenski",
+            "slovenscina",
+            "slovenshchina",
+            "slovenski",
+            "slovenščina"
+        ]
+    },{
+        "code": "SV",
+        "fullName": "Swedish",
+        "flag": ":flag_sv:",
+        "names": [
+            "sv",
+            "swe",
+            "swedish",
+            "svenska"
+        ]
+    },{
+        "code": "ZH",
+        "fullName": "Chinese",
+        "flag": ":flag_cn:",
+        "names": [
+            "zh",
+            "cn",
+            "chi",
+            "zho",
+            "chinese",
+            "zhongwen",
+            "中文"
+        ]
+    }
+]

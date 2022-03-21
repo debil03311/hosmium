@@ -10,6 +10,9 @@ const commandFiles = fs.readdirSync(config.commandsDirectory)
 const commands = new Collection();
 
 for (const commandFilename of commandFiles) {
+    const timestamp = new Date().toLocaleTimeString("UK");
+    console.log(`[${timestamp}] Loading command: ${commandFilename}`);
+
     // Load command from file
     const commandObject = require(`${config.commandsDirectory}/${commandFilename}`)
 

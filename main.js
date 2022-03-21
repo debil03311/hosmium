@@ -1,8 +1,8 @@
 const { Client, Intents } = require('discord.js');
 const { parseArgsStringToArgv } = require('string-argv');
 
+const { commands } = require("./commands.js");
 const config = require('./config.json');
-const commands = require("./commands.js").commands;
 
 // Initialize bot client with necessary permissions
 const bot = new Client({
@@ -51,32 +51,29 @@ bot.on("messageCreate", (message) => {
     });
 });
 
-/**
- * Prepend zeroes to a single digit number
- * @param {Number} digit 
- * @param {Number} amount
- * @returns String
- */
-function prefixZero(digit, amount = 0) {
-    digit = Math.abs(digit).toString();
+// /**
+//  * Prepend zeroes to a single digit number
+//  * @param {Number} digit 
+//  * @param {Number} amount
+//  * @returns String
+//  */
+// function prefixZero(digit, amount = 0) {
+//     digit = Math.abs(digit).toString();
 
-    if (digit > 10)
-        return digit;
+//     if (digit > 10)
+//         return digit;
 
-    return digit.padStart(amount+1, "0")
-}
+//     return digit.padStart(amount+1, "0")
+// }
 
 bot.login(config.botToken);
 bot.on('ready', ()=> {
-    const date = new Date();
-    const hour = prefixZero(date.getHours(), 1);
-    const minute = prefixZero(date.getMinutes(), 1);
-
-    console.log(`[${hour}:${minute}] Bot is online`)
+    const timestamp = new Date().toLocaleTimeString("UK");
+    console.log(`[${timestamp}] [READY] Bot is online`);
 
     // Set bot status
     bot.user.setActivity({
         type: "WATCHING",
         name: "over 2 billion servers!",
-    })
+    });
 });

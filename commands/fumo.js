@@ -26,7 +26,7 @@ async function replyWithFumo(message, isRandom = true, fumoId = "") {
             color: config.color,
             title: "Open Image",
             url: fumo.URL,
-            description: "<:cirnofancy:954173256947077140> Your fumo, sir.",
+            description: "<:cirnofancy:955234989698592778> Your fumo, good sir.",
         });
 
         if (isVideo) {

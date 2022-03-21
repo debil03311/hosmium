@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 const config = require("../config.json");
-const quoteList = require("../quotes.json");
+const quoteList = require("./data/quotes.json");
 
 /**
  * Create a Discord embed field for a given command
@@ -18,10 +18,6 @@ function fieldForCommand(commandName, commandObject) {
     // Italicize and separate arguments by spaces if any
     if (commandObject.arguments)
         fieldObject.name += ` __${commandObject.arguments?.join("__ __")}__`;
-
-    // List command aliases if any
-    if (commandObject.aliases)
-        fieldObject.value += `\nAliases: *${commandObject.aliases.join(", ")}*`;
 
     // Return finalized object
     return fieldObject;
@@ -58,15 +54,35 @@ module.exports = {
                 // Get appropriate command
                 const commandObject = commandList.get(commandName);
 
+                // Create a new embed field for this command
+                const commandField = fieldForCommand(commandName, commandObject);
+
+                // List command aliases in the help embed, if any
+                if (commandObject.aliases) {
+                    commandField.value +=
+                        `\nAliases: *${commandObject.aliases.join(", ")}*`;
+                }
+
+                // If the command has usage notes, add them in
+                if (commandObject.usage) {
+                    commandField.value += "\n\n"
+                        + commandObject.usage.join("\n");
+                }
+
+                // If the command has extra help fields, add them in
+                if (commandObject.deepHelp) {
+                    commandField.value += "\n\n"
+                        + commandObject.deepHelp.join("\n\n");
+                }
+
                 // Add command entry to the embed
-                helpEmbed.fields.push(
-                    fieldForCommand(commandName, commandObject));
+                helpEmbed.fields.push(commandField);
             }
             
             // If the argument is an invalid command name
             catch (ERROR) {
                 return message.reply(
-                    `No such command: \`${commandArguments[0]}\` (${ERROR.name})`);
+                    `No such command: \`${commandArguments[0]}\` (${ERROR})`);
             }
         }
 
@@ -75,7 +91,7 @@ module.exports = {
             const quote = quoteList[ ~~(Math.random() * quoteList.length) ];
 
             // Set embed headers for command list
-            helpEmbed.setTitle("Inhale the hosmium <:imagineTheSmelle:953441999518830712>")
+            helpEmbed.setTitle("Inhale the hosmium <:imagine:955234989732143115>")
                 .setDescription(`
                         *${quote.text}*
                         — **${quote.source}**, ${quote.year}

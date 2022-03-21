@@ -8,12 +8,16 @@ A Discord bot that will hopefully do things.
 2. Open it and paste this inside:
    ```json
    {
-       "prefix": "h!",
-       "color": "#987353",
-       "commandsDirectory": "./commands",
-       "botLogoImage": "https://example.com/logo.png",
-       "deeplApiKey": "PUT YOUR DEEPL API KEY HERE",
-       "botToken": "PUT YOUR DISCORD BOT'S TOKEN HERE"
+      "prefix": "h!",
+      "commandsDirectory": "./commands",
+      "botLogoImage": "https://i.imgur.com/wQIGnlD.png",
+
+      "color": "#987353",
+      "colorFailure": "#F05454",
+      "colorSuccess": "#03C4A1",
+
+      "deeplApiKey": "2c42b8e2-3ab3-7589-d673-da90833d4f47:fx",
+      "botToken": "OTUyNjUxODMyMDc1ODg2NjAz.Yi5IKA.2agqmCBPbBJFDLZ81dn4jdrtUzk"
    }
    ```
 3. Make modifications as you see fit

@@ -29,7 +29,7 @@ module.exports = {
     arguments: [
         "encrypt|decrypt",
         "string",
-        "decryptionKey"
+        "...decryptionKey"
     ],
 
     async execute({ message, commandArguments } = {}) {
@@ -39,7 +39,7 @@ module.exports = {
         // Initialize embed
         const messageEmbed = new MessageEmbed({
             // green
-            color: "#03C4A1",
+            color: config.colorSuccess,
             description: "",
         });
 
@@ -107,7 +107,7 @@ module.exports = {
                 delete messageEmbed.title;
 
                 // red
-                messageEmbed.color = "#F05454";
+                messageEmbed.color = config.colorFailure;
                 messageEmbed.description = `:lock: Decryption failed with key __${commandArguments[2]}__.`;
             }
         }

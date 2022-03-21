@@ -9,7 +9,7 @@ module.exports = {
         const time = new Date().getTime() - message.createdTimestamp;
 
         return message.reply({
-            content: `<:mxneco:952948316340117524> ${time}ms, señor.`,
+            content: `<:mxneco:955234989438550018> ${time}ms, señor.`,
 
             // Without pinging
             allowedMentions: {

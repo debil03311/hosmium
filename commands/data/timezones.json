@@ -1,0 +1,2547 @@
+[
+    {
+        "offset": -11,
+        "timezone": "Pacific/Midway",
+        "country": "United States Minor Outlying Islands",
+        "flagEmoji": ":flag_um:",
+        "majorCities": ""
+    },{
+        "offset": -11,
+        "timezone": "Pacific/Niue",
+        "country": "Niue",
+        "flagEmoji": ":flag_nu:",
+        "majorCities": "Alofi"
+    },{
+        "offset": -11,
+        "timezone": "Pacific/Pago_Pago",
+        "country": "American Samoa",
+        "flagEmoji": ":flag_as:",
+        "majorCities": "Pago Pago, Tāfuna, Ta`ū, Taulaga"
+    },{
+        "offset": -10,
+        "timezone": "America/Adak",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": ""
+    },{
+        "offset": -10,
+        "timezone": "Pacific/Honolulu",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": "Honolulu, East Honolulu, Pearl City, Hilo, Kailua"
+    },{
+        "offset": -10,
+        "timezone": "Pacific/Rarotonga",
+        "country": "Cook Islands",
+        "flagEmoji": ":flag_ck:",
+        "majorCities": "Avarua"
+    },{
+        "offset": -10,
+        "timezone": "Pacific/Tahiti",
+        "country": "French Polynesia",
+        "flagEmoji": ":flag_pf:",
+        "majorCities": "Faaa, Papeete, Punaauia, Pirae, Mahina"
+    },{
+        "offset": -9,
+        "timezone": "Pacific/Marquesas",
+        "country": "French Polynesia",
+        "flagEmoji": ":flag_pf:",
+        "majorCities": "Taiohae"
+    },{
+        "offset": -9,
+        "timezone": "America/Anchorage",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": "Anchorage, Fairbanks, Eagle River, Badger, Knik-Fairview"
+    },{
+        "offset": -9,
+        "timezone": "America/Juneau",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": "Juneau"
+    },{
+        "offset": -9,
+        "timezone": "America/Metlakatla",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": ""
+    },{
+        "offset": -9,
+        "timezone": "America/Nome",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": ""
+    },{
+        "offset": -9,
+        "timezone": "America/Sitka",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": "Sitka, Ketchikan"
+    },{
+        "offset": -9,
+        "timezone": "America/Yakutat",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": ""
+    },{
+        "offset": -9,
+        "timezone": "Pacific/Gambier",
+        "country": "French Polynesia",
+        "flagEmoji": ":flag_pf:",
+        "majorCities": ""
+    },{
+        "offset": -8,
+        "timezone": "America/Los_Angeles",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": "Los Angeles, San Diego, San Jose, San Francisco, Seattle"
+    },{
+        "offset": -8,
+        "timezone": "America/Tijuana",
+        "country": "Mexico",
+        "flagEmoji": ":flag_mx:",
+        "majorCities": "Tijuana, Mexicali, Ensenada, Rosarito, Tecate"
+    },{
+        "offset": -8,
+        "timezone": "America/Vancouver",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": "Vancouver, Surrey, Okanagan, Victoria, Burnaby"
+    },{
+        "offset": -8,
+        "timezone": "Pacific/Pitcairn",
+        "country": "Pitcairn",
+        "flagEmoji": ":flag_pn:",
+        "majorCities": "Adamstown"
+    },{
+        "offset": -7,
+        "timezone": "America/Boise",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": "Boise, Meridian, Nampa, Idaho Falls, Pocatello"
+    },{
+        "offset": -7,
+        "timezone": "America/Cambridge_Bay",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": ""
+    },{
+        "offset": -7,
+        "timezone": "America/Chihuahua",
+        "country": "Mexico",
+        "flagEmoji": ":flag_mx:",
+        "majorCities": "Chihuahua, Ciudad Delicias, Cuauhtémoc, Parral, Nuevo Casas Grandes"
+    },{
+        "offset": -7,
+        "timezone": "America/Creston",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": ""
+    },{
+        "offset": -7,
+        "timezone": "America/Dawson",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": ""
+    },{
+        "offset": -7,
+        "timezone": "America/Dawson_Creek",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": "Fort St. John, Dawson Creek"
+    },{
+        "offset": -7,
+        "timezone": "America/Denver",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": "Denver, El Paso, Albuquerque, Colorado Springs, Aurora"
+    },{
+        "offset": -7,
+        "timezone": "America/Edmonton",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": "Calgary, Edmonton, Fort McMurray, Red Deer, Lethbridge"
+    },{
+        "offset": -7,
+        "timezone": "America/Fort_Nelson",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": ""
+    },{
+        "offset": -7,
+        "timezone": "America/Hermosillo",
+        "country": "Mexico",
+        "flagEmoji": ":flag_mx:",
+        "majorCities": "Hermosillo, Ciudad Obregón, Nogales, San Luis Río Colorado, Navojoa"
+    },{
+        "offset": -7,
+        "timezone": "America/Inuvik",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": ""
+    },{
+        "offset": -7,
+        "timezone": "America/Mazatlan",
+        "country": "Mexico",
+        "flagEmoji": ":flag_mx:",
+        "majorCities": "Culiacán, Mazatlán, Tepic, Los Mochis, La Paz"
+    },{
+        "offset": -7,
+        "timezone": "America/Ojinaga",
+        "country": "Mexico",
+        "flagEmoji": ":flag_mx:",
+        "majorCities": "Ciudad Juárez, Manuel Ojinaga, Ojinaga"
+    },{
+        "offset": -7,
+        "timezone": "America/Phoenix",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": "Phoenix, Tucson, Mesa, Chandler, Gilbert"
+    },{
+        "offset": -7,
+        "timezone": "America/Whitehorse",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": "Whitehorse"
+    },{
+        "offset": -7,
+        "timezone": "America/Yellowknife",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": "Yellowknife"
+    },{
+        "offset": -6,
+        "timezone": "America/Bahia_Banderas",
+        "country": "Mexico",
+        "flagEmoji": ":flag_mx:",
+        "majorCities": "Mezcales, San Vicente, Bucerías, Valle de Banderas"
+    },{
+        "offset": -6,
+        "timezone": "America/Belize",
+        "country": "Belize",
+        "flagEmoji": ":flag_bz:",
+        "majorCities": "Belize City, San Ignacio, Orange Walk, Belmopan, Dangriga"
+    },{
+        "offset": -6,
+        "timezone": "America/Chicago",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": "Chicago, Houston, San Antonio, Dallas, Austin"
+    },{
+        "offset": -6,
+        "timezone": "America/Costa_Rica",
+        "country": "Costa Rica",
+        "flagEmoji": ":flag_cr:",
+        "majorCities": "San José, Limón, San Francisco, Alajuela, Liberia"
+    },{
+        "offset": -6,
+        "timezone": "America/El_Salvador",
+        "country": "El Salvador",
+        "flagEmoji": ":flag_sv:",
+        "majorCities": "San Salvador, Soyapango, Santa Ana, San Miguel, Mejicanos"
+    },{
+        "offset": -6,
+        "timezone": "America/Guatemala",
+        "country": "Guatemala",
+        "flagEmoji": ":flag_gt:",
+        "majorCities": "Guatemala City, Mixco, Villa Nueva, Petapa, San Juan Sacatepéquez"
+    },{
+        "offset": -6,
+        "timezone": "America/Indiana/Knox",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": ""
+    },{
+        "offset": -6,
+        "timezone": "America/Indiana/Tell_City",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": "Tell City"
+    },{
+        "offset": -6,
+        "timezone": "America/Managua",
+        "country": "Nicaragua",
+        "flagEmoji": ":flag_ni:",
+        "majorCities": "Managua, León, Masaya, Chinandega, Matagalpa"
+    },{
+        "offset": -6,
+        "timezone": "America/Matamoros",
+        "country": "Mexico",
+        "flagEmoji": ":flag_mx:",
+        "majorCities": "Reynosa, Heroica Matamoros, Nuevo Laredo, Piedras Negras, Ciudad Acuña"
+    },{
+        "offset": -6,
+        "timezone": "America/Menominee",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": "Menominee, Iron Mountain, Kingsford, Ironwood, Iron River"
+    },{
+        "offset": -6,
+        "timezone": "America/Merida",
+        "country": "Mexico",
+        "flagEmoji": ":flag_mx:",
+        "majorCities": "Mérida, Campeche, Ciudad del Carmen, Kanasín, Valladolid"
+    },{
+        "offset": -6,
+        "timezone": "America/Mexico_City",
+        "country": "Mexico",
+        "flagEmoji": ":flag_mx:",
+        "majorCities": "Mexico City, Iztapalapa, Ecatepec de Morelos, Guadalajara, Puebla"
+    },{
+        "offset": -6,
+        "timezone": "America/Monterrey",
+        "country": "Mexico",
+        "flagEmoji": ":flag_mx:",
+        "majorCities": "Monterrey, Saltillo, Guadalupe, Torreón, Victoria de Durango"
+    },{
+        "offset": -6,
+        "timezone": "America/North_Dakota/Beulah",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": ""
+    },{
+        "offset": -6,
+        "timezone": "America/North_Dakota/Center",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": ""
+    },{
+        "offset": -6,
+        "timezone": "America/North_Dakota/New_Salem",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": "Mandan"
+    },{
+        "offset": -6,
+        "timezone": "America/Rainy_River",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": ""
+    },{
+        "offset": -6,
+        "timezone": "America/Rankin_Inlet",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": ""
+    },{
+        "offset": -6,
+        "timezone": "America/Regina",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": "Saskatoon, Regina, Prince Albert, Moose Jaw, North Battleford"
+    },{
+        "offset": -6,
+        "timezone": "America/Resolute",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": ""
+    },{
+        "offset": -6,
+        "timezone": "America/Swift_Current",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": "Swift Current"
+    },{
+        "offset": -6,
+        "timezone": "America/Tegucigalpa",
+        "country": "Honduras",
+        "flagEmoji": ":flag_hn:",
+        "majorCities": "Tegucigalpa, San Pedro Sula, Choloma, La Ceiba, El Progreso"
+    },{
+        "offset": -6,
+        "timezone": "America/Winnipeg",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": "Winnipeg, Brandon, Kenora, Portage la Prairie, Thompson"
+    },{
+        "offset": -6,
+        "timezone": "Pacific/Easter",
+        "country": "Chile",
+        "flagEmoji": ":flag_cl:",
+        "majorCities": ""
+    },{
+        "offset": -6,
+        "timezone": "Pacific/Galapagos",
+        "country": "Ecuador",
+        "flagEmoji": ":flag_ec:",
+        "majorCities": "Puerto Ayora, Puerto Baquerizo Moreno"
+    },{
+        "offset": -5,
+        "timezone": "America/Atikokan",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": ""
+    },{
+        "offset": -5,
+        "timezone": "America/Bogota",
+        "country": "Colombia",
+        "flagEmoji": ":flag_co:",
+        "majorCities": "Bogotá, Cali, Medellín, Barranquilla, Cartagena"
+    },{
+        "offset": -5,
+        "timezone": "America/Cancun",
+        "country": "Mexico",
+        "flagEmoji": ":flag_mx:",
+        "majorCities": "Cancún, Chetumal, Playa del Carmen, Cozumel, Felipe Carrillo Puerto"
+    },{
+        "offset": -5,
+        "timezone": "America/Cayman",
+        "country": "Cayman Islands",
+        "flagEmoji": ":flag_ky:",
+        "majorCities": "George Town, West Bay, Bodden Town, East End, North Side"
+    },{
+        "offset": -5,
+        "timezone": "America/Detroit",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": "Detroit, Grand Rapids, Warren, Sterling Heights, Ann Arbor"
+    },{
+        "offset": -5,
+        "timezone": "America/Eirunepe",
+        "country": "Brazil",
+        "flagEmoji": ":flag_br:",
+        "majorCities": "Eirunepé, Benjamin Constant, Envira"
+    },{
+        "offset": -5,
+        "timezone": "America/Grand_Turk",
+        "country": "Turks and Caicos Islands",
+        "flagEmoji": ":flag_tc:",
+        "majorCities": "Cockburn Town"
+    },{
+        "offset": -5,
+        "timezone": "America/Guayaquil",
+        "country": "Ecuador",
+        "flagEmoji": ":flag_ec:",
+        "majorCities": "Guayaquil, Quito, Cuenca, Santo Domingo de los Colorados, Machala"
+    },{
+        "offset": -5,
+        "timezone": "America/Havana",
+        "country": "Cuba",
+        "flagEmoji": ":flag_cu:",
+        "majorCities": "Havana, Santiago de Cuba, Camagüey, Holguín, Guantánamo"
+    },{
+        "offset": -5,
+        "timezone": "America/Indiana/Indianapolis",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": "Indianapolis, Fort Wayne, South Bend, Carmel, Bloomington"
+    },{
+        "offset": -5,
+        "timezone": "America/Indiana/Marengo",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": ""
+    },{
+        "offset": -5,
+        "timezone": "America/Indiana/Petersburg",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": ""
+    },{
+        "offset": -5,
+        "timezone": "America/Indiana/Vevay",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": ""
+    },{
+        "offset": -5,
+        "timezone": "America/Indiana/Vincennes",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": "Vincennes, Jasper, Washington, Huntingburg"
+    },{
+        "offset": -5,
+        "timezone": "America/Indiana/Winamac",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": ""
+    },{
+        "offset": -5,
+        "timezone": "America/Iqaluit",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": "Iqaluit"
+    },{
+        "offset": -5,
+        "timezone": "America/Jamaica",
+        "country": "Jamaica",
+        "flagEmoji": ":flag_jm:",
+        "majorCities": "Kingston, New Kingston, Spanish Town, Portmore, Montego Bay"
+    },{
+        "offset": -5,
+        "timezone": "America/Kentucky/Louisville",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": "Louisville, Jeffersonville, New Albany, Jeffersontown, Pleasure Ridge Park"
+    },{
+        "offset": -5,
+        "timezone": "America/Kentucky/Monticello",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": "Monticello"
+    },{
+        "offset": -5,
+        "timezone": "America/Lima",
+        "country": "Peru",
+        "flagEmoji": ":flag_pe:",
+        "majorCities": "Lima, Arequipa, Callao, Trujillo, Chiclayo"
+    },{
+        "offset": -5,
+        "timezone": "America/Nassau",
+        "country": "Bahamas",
+        "flagEmoji": ":flag_bs:",
+        "majorCities": "Nassau, Lucaya, Freeport, West End, Cooper’s Town"
+    },{
+        "offset": -5,
+        "timezone": "America/New_York",
+        "country": "United States",
+        "flagEmoji": ":flag_us:",
+        "majorCities": "New York City, Brooklyn, Queens, Philadelphia, Manhattan"
+    },{
+        "offset": -5,
+        "timezone": "America/Nipigon",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": ""
+    },{
+        "offset": -5,
+        "timezone": "America/Panama",
+        "country": "Panama",
+        "flagEmoji": ":flag_pa:",
+        "majorCities": "Panamá, San Miguelito, Juan Díaz, David, Arraiján"
+    },{
+        "offset": -5,
+        "timezone": "America/Pangnirtung",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": ""
+    },{
+        "offset": -5,
+        "timezone": "America/Port-au-Prince",
+        "country": "Haiti",
+        "flagEmoji": ":flag_ht:",
+        "majorCities": "Port-au-Prince, Carrefour, Delmas 73, Pétionville, Port-de-Paix"
+    },{
+        "offset": -5,
+        "timezone": "America/Rio_Branco",
+        "country": "Brazil",
+        "flagEmoji": ":flag_br:",
+        "majorCities": "Rio Branco, Cruzeiro do Sul, Sena Madureira, Tarauacá, Feijó"
+    },{
+        "offset": -5,
+        "timezone": "America/Thunder_Bay",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": "Thunder Bay"
+    },{
+        "offset": -5,
+        "timezone": "America/Toronto",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": "Toronto, Montréal, Ottawa, Mississauga, Québec"
+    },{
+        "offset": -4,
+        "timezone": "America/Anguilla",
+        "country": "Anguilla",
+        "flagEmoji": ":flag_ai:",
+        "majorCities": "The Valley, Blowing Point Village, Sandy Ground Village, The Quarter, Sandy Hill"
+    },{
+        "offset": -4,
+        "timezone": "America/Antigua",
+        "country": "Antigua and Barbuda",
+        "flagEmoji": ":flag_ag:",
+        "majorCities": "Saint John’s, Piggotts, Bolands, Codrington, Parham"
+    },{
+        "offset": -4,
+        "timezone": "America/Aruba",
+        "country": "Aruba",
+        "flagEmoji": ":flag_aw:",
+        "majorCities": "Oranjestad, Tanki Leendert, San Nicolas, Santa Cruz, Paradera"
+    },{
+        "offset": -4,
+        "timezone": "America/Asuncion",
+        "country": "Paraguay",
+        "flagEmoji": ":flag_py:",
+        "majorCities": "Asunción, Ciudad del Este, San Lorenzo, Capiatá, Lambaré"
+    },{
+        "offset": -4,
+        "timezone": "America/Barbados",
+        "country": "Barbados",
+        "flagEmoji": ":flag_bb:",
+        "majorCities": "Bridgetown, Speightstown, Oistins, Bathsheba, Holetown"
+    },{
+        "offset": -4,
+        "timezone": "America/Blanc-Sablon",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": "Lévis"
+    },{
+        "offset": -4,
+        "timezone": "America/Boa_Vista",
+        "country": "Brazil",
+        "flagEmoji": ":flag_br:",
+        "majorCities": "Boa Vista"
+    },{
+        "offset": -4,
+        "timezone": "America/Campo_Grande",
+        "country": "Brazil",
+        "flagEmoji": ":flag_br:",
+        "majorCities": "Campo Grande, Dourados, Corumbá, Três Lagoas, Ponta Porã"
+    },{
+        "offset": -4,
+        "timezone": "America/Caracas",
+        "country": "Venezuela",
+        "flagEmoji": ":flag_ve:",
+        "majorCities": "Caracas, Maracaibo, Maracay, Valencia, Barquisimeto"
+    },{
+        "offset": -4,
+        "timezone": "America/Cuiaba",
+        "country": "Brazil",
+        "flagEmoji": ":flag_br:",
+        "majorCities": "Cuiabá, Várzea Grande, Rondonópolis, Sinop, Barra do Garças"
+    },{
+        "offset": -4,
+        "timezone": "America/Curacao",
+        "country": "Curacao",
+        "flagEmoji": ":flag_cw:",
+        "majorCities": "Willemstad, Sint Michiel Liber"
+    },{
+        "offset": -4,
+        "timezone": "America/Dominica",
+        "country": "Dominica",
+        "flagEmoji": ":flag_dm:",
+        "majorCities": "Roseau, Portsmouth, Berekua, Saint Joseph, Wesley"
+    },{
+        "offset": -4,
+        "timezone": "America/Glace_Bay",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": "Sydney, Glace Bay, Sydney Mines"
+    },{
+        "offset": -4,
+        "timezone": "America/Goose_Bay",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": "Labrador City, Happy Valley-Goose Bay"
+    },{
+        "offset": -4,
+        "timezone": "America/Grenada",
+        "country": "Grenada",
+        "flagEmoji": ":flag_gd:",
+        "majorCities": "Saint George's, Gouyave, Grenville, Victoria, Saint David’s"
+    },{
+        "offset": -4,
+        "timezone": "America/Guadeloupe",
+        "country": "Guadeloupe",
+        "flagEmoji": ":flag_gp:",
+        "majorCities": "Les Abymes, Baie-Mahault, Le Gosier, Petit-Bourg, Sainte-Anne"
+    },{
+        "offset": -4,
+        "timezone": "America/Guyana",
+        "country": "Guyana",
+        "flagEmoji": ":flag_gy:",
+        "majorCities": "Georgetown, Linden, New Amsterdam, Anna Regina, Bartica"
+    },{
+        "offset": -4,
+        "timezone": "America/Halifax",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": "Halifax, Dartmouth, Charlottetown, Lower Sackville, Truro"
+    },{
+        "offset": -4,
+        "timezone": "America/Kralendijk",
+        "country": "Bonaire, Saint Eustatius and Saba",
+        "flagEmoji": ":flag_bq:",
+        "majorCities": "Kralendijk, Oranjestad, The Bottom"
+    },{
+        "offset": -4,
+        "timezone": "America/La_Paz",
+        "country": "Bolivia",
+        "flagEmoji": ":flag_bo:",
+        "majorCities": "Santa Cruz de la Sierra, Cochabamba, La Paz, Sucre, Oruro"
+    },{
+        "offset": -4,
+        "timezone": "America/Lower_Princes",
+        "country": "Sint Maarten",
+        "flagEmoji": ":flag_sx:",
+        "majorCities": "Cul de Sac, Lower Prince’s Quarter, Koolbaai, Philipsburg"
+    },{
+        "offset": -4,
+        "timezone": "America/Manaus",
+        "country": "Brazil",
+        "flagEmoji": ":flag_br:",
+        "majorCities": "Manaus, Itacoatiara, Parintins, Manacapuru, Coari"
+    },{
+        "offset": -4,
+        "timezone": "America/Marigot",
+        "country": "Saint Martin",
+        "flagEmoji": ":flag_mf:",
+        "majorCities": "Marigot"
+    },{
+        "offset": -4,
+        "timezone": "America/Martinique",
+        "country": "Martinique",
+        "flagEmoji": ":flag_mq:",
+        "majorCities": "Fort-de-France, Le Lamentin, Le Robert, Sainte-Marie, Le François"
+    },{
+        "offset": -4,
+        "timezone": "America/Moncton",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": "Moncton, Saint John, Fredericton, Dieppe, Miramichi"
+    },{
+        "offset": -4,
+        "timezone": "America/Montserrat",
+        "country": "Montserrat",
+        "flagEmoji": ":flag_ms:",
+        "majorCities": "Brades, Saint Peters, Plymouth"
+    },{
+        "offset": -4,
+        "timezone": "America/Porto_Velho",
+        "country": "Brazil",
+        "flagEmoji": ":flag_br:",
+        "majorCities": "Porto Velho, Ji Paraná, Vilhena, Ariquemes, Cacoal"
+    },{
+        "offset": -4,
+        "timezone": "America/Port_of_Spain",
+        "country": "Trinidad and Tobago",
+        "flagEmoji": ":flag_tt:",
+        "majorCities": "Chaguanas, Mon Repos, San Fernando, Port of Spain, Rio Claro"
+    },{
+        "offset": -4,
+        "timezone": "America/Puerto_Rico",
+        "country": "Puerto Rico",
+        "flagEmoji": ":flag_pr:",
+        "majorCities": "San Juan, Bayamón, Carolina, Ponce, Caguas"
+    },{
+        "offset": -4,
+        "timezone": "America/Santiago",
+        "country": "Chile",
+        "flagEmoji": ":flag_cl:",
+        "majorCities": "Santiago, Puente Alto, Antofagasta, Viña del Mar, Valparaíso"
+    },{
+        "offset": -4,
+        "timezone": "America/Santo_Domingo",
+        "country": "Dominican Republic",
+        "flagEmoji": ":flag_do:",
+        "majorCities": "Santo Domingo, Santiago de los Caballeros, Santo Domingo Oeste, Santo Domingo Este, San Pedro de Macorís"
+    },{
+        "offset": -4,
+        "timezone": "America/St_Barthelemy",
+        "country": "Saint Barthelemy",
+        "flagEmoji": ":flag_bl:",
+        "majorCities": "Gustavia"
+    },{
+        "offset": -4,
+        "timezone": "America/St_Kitts",
+        "country": "Saint Kitts and Nevis",
+        "flagEmoji": ":flag_kn:",
+        "majorCities": "Basseterre, Fig Tree, Market Shop, Saint Paul’s, Middle Island"
+    },{
+        "offset": -4,
+        "timezone": "America/St_Lucia",
+        "country": "Saint Lucia",
+        "flagEmoji": ":flag_lc:",
+        "majorCities": "Castries, Bisee, Vieux Fort, Micoud, Soufrière"
+    },{
+        "offset": -4,
+        "timezone": "America/St_Thomas",
+        "country": "U.S. Virgin Islands",
+        "flagEmoji": ":flag_vi:",
+        "majorCities": "Saint Croix, Charlotte Amalie, Cruz Bay"
+    },{
+        "offset": -4,
+        "timezone": "America/St_Vincent",
+        "country": "Saint Vincent and the Grenadines",
+        "flagEmoji": ":flag_vc:",
+        "majorCities": "Kingstown, Kingstown Park, Georgetown, Barrouallie, Port Elizabeth"
+    },{
+        "offset": -4,
+        "timezone": "America/Thule",
+        "country": "Greenland",
+        "flagEmoji": ":flag_gl:",
+        "majorCities": ""
+    },{
+        "offset": -4,
+        "timezone": "America/Tortola",
+        "country": "British Virgin Islands",
+        "flagEmoji": ":flag_vg:",
+        "majorCities": "Road Town"
+    },{
+        "offset": -4,
+        "timezone": "Atlantic/Bermuda",
+        "country": "Bermuda",
+        "flagEmoji": ":flag_bm:",
+        "majorCities": "Hamilton"
+    },{
+        "offset": -3,
+        "timezone": "America/St_Johns",
+        "country": "Canada",
+        "flagEmoji": ":flag_ca:",
+        "majorCities": "St. John's, Mount Pearl, Corner Brook, Conception Bay South, Bay Roberts"
+    },{
+        "offset": -3,
+        "timezone": "America/Araguaina",
+        "country": "Brazil",
+        "flagEmoji": ":flag_br:",
+        "majorCities": "Palmas, Araguaína, Gurupi, Miracema do Tocantins, Porto Franco"
+    },{
+        "offset": -3,
+        "timezone": "America/Argentina/Buenos_Aires",
+        "country": "Argentina",
+        "flagEmoji": ":flag_ar:",
+        "majorCities": "Buenos Aires, La Plata, Mar del Plata, Morón, Bahía Blanca"
+    },{
+        "offset": -3,
+        "timezone": "America/Argentina/Catamarca",
+        "country": "Argentina",
+        "flagEmoji": ":flag_ar:",
+        "majorCities": "San Fernando del Valle de Catamarca, Trelew, Puerto Madryn, Esquel, Rawson"
+    },{
+        "offset": -3,
+        "timezone": "America/Argentina/Cordoba",
+        "country": "Argentina",
+        "flagEmoji": ":flag_ar:",
+        "majorCities": "Córdoba, Rosario, Santa Fe, Resistencia, Santiago del Estero"
+    },{
+        "offset": -3,
+        "timezone": "America/Argentina/Jujuy",
+        "country": "Argentina",
+        "flagEmoji": ":flag_ar:",
+        "majorCities": "San Salvador de Jujuy, San Pedro de Jujuy, Libertador General San Martín, Palpalá, La Quiaca"
+    },{
+        "offset": -3,
+        "timezone": "America/Argentina/La_Rioja",
+        "country": "Argentina",
+        "flagEmoji": ":flag_ar:",
+        "majorCities": "La Rioja, Chilecito, Arauco, Chamical"
+    },{
+        "offset": -3,
+        "timezone": "America/Argentina/Mendoza",
+        "country": "Argentina",
+        "flagEmoji": ":flag_ar:",
+        "majorCities": "Mendoza, San Rafael, San Martín"
+    },{
+        "offset": -3,
+        "timezone": "America/Argentina/Rio_Gallegos",
+        "country": "Argentina",
+        "flagEmoji": ":flag_ar:",
+        "majorCities": "Comodoro Rivadavia, Río Gallegos, Caleta Olivia, Pico Truncado, Puerto Deseado"
+    },{
+        "offset": -3,
+        "timezone": "America/Argentina/Salta",
+        "country": "Argentina",
+        "flagEmoji": ":flag_ar:",
+        "majorCities": "Salta, Neuquén, Santa Rosa, San Carlos de Bariloche, Cipolletti"
+    },{
+        "offset": -3,
+        "timezone": "America/Argentina/San_Juan",
+        "country": "Argentina",
+        "flagEmoji": ":flag_ar:",
+        "majorCities": "San Juan, Chimbas, Santa Lucía, Pocito, Caucete"
+    },{
+        "offset": -3,
+        "timezone": "America/Argentina/San_Luis",
+        "country": "Argentina",
+        "flagEmoji": ":flag_ar:",
+        "majorCities": "San Luis, Villa Mercedes, La Punta, Merlo, Justo Daract"
+    },{
+        "offset": -3,
+        "timezone": "America/Argentina/Tucuman",
+        "country": "Argentina",
+        "flagEmoji": ":flag_ar:",
+        "majorCities": "San Miguel de Tucumán, Yerba Buena, Tafí Viejo, Alderetes, Aguilares"
+    },{
+        "offset": -3,
+        "timezone": "America/Argentina/Ushuaia",
+        "country": "Argentina",
+        "flagEmoji": ":flag_ar:",
+        "majorCities": "Ushuaia, Río Grande"
+    },{
+        "offset": -3,
+        "timezone": "America/Bahia",
+        "country": "Brazil",
+        "flagEmoji": ":flag_br:",
+        "majorCities": "Salvador, Feira de Santana, Vitória da Conquista, Itabuna, Camaçari"
+    },{
+        "offset": -3,
+        "timezone": "America/Belem",
+        "country": "Brazil",
+        "flagEmoji": ":flag_br:",
+        "majorCities": "Belém, Ananindeua, Macapá, Parauapebas, Marabá"
+    },{
+        "offset": -3,
+        "timezone": "America/Cayenne",
+        "country": "French Guiana",
+        "flagEmoji": ":flag_gf:",
+        "majorCities": "Cayenne, Matoury, Saint-Laurent-du-Maroni, Kourou, Rémire-Montjoly"
+    },{
+        "offset": -3,
+        "timezone": "America/Fortaleza",
+        "country": "Brazil",
+        "flagEmoji": ":flag_br:",
+        "majorCities": "Fortaleza, São Luís, Natal, Teresina, João Pessoa"
+    },{
+        "offset": -3,
+        "timezone": "America/Godthab",
+        "country": "Greenland",
+        "flagEmoji": ":flag_gl:",
+        "majorCities": "Nuuk, Sisimiut, Ilulissat, Qaqortoq, Aasiaat"
+    },{
+        "offset": -3,
+        "timezone": "America/Maceio",
+        "country": "Brazil",
+        "flagEmoji": ":flag_br:",
+        "majorCities": "Maceió, Aracaju, Arapiraca, Nossa Senhora do Socorro, São Cristóvão"
+    },{
+        "offset": -3,
+        "timezone": "America/Miquelon",
+        "country": "Saint Pierre and Miquelon",
+        "flagEmoji": ":flag_pm:",
+        "majorCities": "Saint-Pierre, Miquelon"
+    },{
+        "offset": -3,
+        "timezone": "America/Montevideo",
+        "country": "Uruguay",
+        "flagEmoji": ":flag_uy:",
+        "majorCities": "Montevideo, Salto, Paysandú, Las Piedras, Rivera"
+    },{
+        "offset": -3,
+        "timezone": "America/Paramaribo",
+        "country": "Suriname",
+        "flagEmoji": ":flag_sr:",
+        "majorCities": "Paramaribo, Lelydorp, Brokopondo, Nieuw Nickerie, Moengo"
+    },{
+        "offset": -3,
+        "timezone": "America/Punta_Arenas",
+        "country": "Chile",
+        "flagEmoji": ":flag_cl:",
+        "majorCities": "Punta Arenas, Puerto Natales"
+    },{
+        "offset": -3,
+        "timezone": "America/Recife",
+        "country": "Brazil",
+        "flagEmoji": ":flag_br:",
+        "majorCities": "Recife, Jaboatão, Jaboatão dos Guararapes, Olinda, Paulista"
+    },{
+        "offset": -3,
+        "timezone": "America/Santarem",
+        "country": "Brazil",
+        "flagEmoji": ":flag_br:",
+        "majorCities": "Santarém, Altamira, Itaituba, Oriximiná, Alenquer"
+    },{
+        "offset": -3,
+        "timezone": "America/Sao_Paulo",
+        "country": "Brazil",
+        "flagEmoji": ":flag_br:",
+        "majorCities": "São Paulo, Rio de Janeiro, Belo Horizonte, Brasília, Curitiba"
+    },{
+        "offset": -3,
+        "timezone": "Antarctica/Palmer",
+        "country": "Antarctica",
+        "flagEmoji": ":flag_aq:",
+        "majorCities": ""
+    },{
+        "offset": -3,
+        "timezone": "Antarctica/Rothera",
+        "country": "Antarctica",
+        "flagEmoji": ":flag_aq:",
+        "majorCities": ""
+    },{
+        "offset": -3,
+        "timezone": "Atlantic/Stanley",
+        "country": "Falkland Islands",
+        "flagEmoji": ":flag_fk:",
+        "majorCities": "Stanley"
+    },{
+        "offset": -2,
+        "timezone": "America/Noronha",
+        "country": "Brazil",
+        "flagEmoji": ":flag_br:",
+        "majorCities": "Itamaracá"
+    },{
+        "offset": -2,
+        "timezone": "Atlantic/South_Georgia",
+        "country": "South Georgia and the South Sandwich Islands",
+        "flagEmoji": ":flag_gs:",
+        "majorCities": "Grytviken"
+    },{
+        "offset": -1,
+        "timezone": "America/Scoresbysund",
+        "country": "Greenland",
+        "flagEmoji": ":flag_gl:",
+        "majorCities": ""
+    },{
+        "offset": -1,
+        "timezone": "Atlantic/Azores",
+        "country": "Portugal",
+        "flagEmoji": ":flag_pt:",
+        "majorCities": "Ponta Delgada, Lagoa, Angra do Heroísmo, Rosto de Cão, Rabo de Peixe"
+    },{
+        "offset": -1,
+        "timezone": "Atlantic/Cape_Verde",
+        "country": "Cabo Verde",
+        "flagEmoji": ":flag_cv:",
+        "majorCities": "Praia, Mindelo, Santa Maria, Cova Figueira, Santa Cruz"
+    },{
+        "offset": 0,
+        "timezone": "Africa/Abidjan",
+        "country": "Ivory Coast",
+        "flagEmoji": ":flag_ci:",
+        "majorCities": "Abidjan, Abobo, Bouaké, Daloa, San-Pédro"
+    },{
+        "offset": 0,
+        "timezone": "Africa/Accra",
+        "country": "Ghana",
+        "flagEmoji": ":flag_gh:",
+        "majorCities": "Accra, Kumasi, Tamale, Takoradi, Atsiaman"
+    },{
+        "offset": 0,
+        "timezone": "Africa/Bamako",
+        "country": "Mali",
+        "flagEmoji": ":flag_ml:",
+        "majorCities": "Bamako, Sikasso, Mopti, Koutiala, Ségou"
+    },{
+        "offset": 0,
+        "timezone": "Africa/Banjul",
+        "country": "Gambia",
+        "flagEmoji": ":flag_gm:",
+        "majorCities": "Serekunda, Brikama, Bakau, Banjul, Farafenni"
+    },{
+        "offset": 0,
+        "timezone": "Africa/Bissau",
+        "country": "Guinea-Bissau",
+        "flagEmoji": ":flag_gw:",
+        "majorCities": "Bissau, Bafatá, Gabú, Bissorã, Bolama"
+    },{
+        "offset": 0,
+        "timezone": "Africa/Casablanca",
+        "country": "Morocco",
+        "flagEmoji": ":flag_ma:",
+        "majorCities": "Casablanca, Rabat, Fès, Sale, Marrakesh"
+    },{
+        "offset": 0,
+        "timezone": "Africa/Conakry",
+        "country": "Guinea",
+        "flagEmoji": ":flag_gn:",
+        "majorCities": "Camayenne, Conakry, Nzérékoré, Kindia, Kankan"
+    },{
+        "offset": 0,
+        "timezone": "Africa/Dakar",
+        "country": "Senegal",
+        "flagEmoji": ":flag_sn:",
+        "majorCities": "Dakar, Pikine, Touba, Thiès, Thiès Nones"
+    },{
+        "offset": 0,
+        "timezone": "Africa/El_Aaiun",
+        "country": "Western Sahara",
+        "flagEmoji": ":flag_eh:",
+        "majorCities": "Laayoune, Dakhla, Laayoune Plage"
+    },{
+        "offset": 0,
+        "timezone": "Africa/Freetown",
+        "country": "Sierra Leone",
+        "flagEmoji": ":flag_sl:",
+        "majorCities": "Freetown, Bo, Kenema, Koidu, Makeni"
+    },{
+        "offset": 0,
+        "timezone": "Africa/Lome",
+        "country": "Togo",
+        "flagEmoji": ":flag_tg:",
+        "majorCities": "Lomé, Sokodé, Kara, Atakpamé, Kpalimé"
+    },{
+        "offset": 0,
+        "timezone": "Africa/Monrovia",
+        "country": "Liberia",
+        "flagEmoji": ":flag_lr:",
+        "majorCities": "Monrovia, Gbarnga, Kakata, Bensonville, Harper"
+    },{
+        "offset": 0,
+        "timezone": "Africa/Nouakchott",
+        "country": "Mauritania",
+        "flagEmoji": ":flag_mr:",
+        "majorCities": "Nouakchott, Nouadhibou, Néma, Kaédi, Rosso"
+    },{
+        "offset": 0,
+        "timezone": "Africa/Ouagadougou",
+        "country": "Burkina Faso",
+        "flagEmoji": ":flag_bf:",
+        "majorCities": "Ouagadougou, Bobo-Dioulasso, Koudougou, Ouahigouya, Banfora"
+    },{
+        "offset": 0,
+        "timezone": "Africa/Sao_Tome",
+        "country": "Sao Tome and Principe",
+        "flagEmoji": ":flag_st:",
+        "majorCities": "São Tomé, Santo António"
+    },{
+        "offset": 0,
+        "timezone": "America/Danmarkshavn",
+        "country": "Greenland",
+        "flagEmoji": ":flag_gl:",
+        "majorCities": ""
+    },{
+        "offset": 0,
+        "timezone": "Antarctica/Troll",
+        "country": "Antarctica",
+        "flagEmoji": ":flag_aq:",
+        "majorCities": ""
+    },{
+        "offset": 0,
+        "timezone": "Atlantic/Canary",
+        "country": "Spain",
+        "flagEmoji": ":flag_es:",
+        "majorCities": "Las Palmas de Gran Canaria, Santa Cruz de Tenerife, La Laguna, Telde, Arona"
+    },{
+        "offset": 0,
+        "timezone": "Atlantic/Faroe",
+        "country": "Faroe Islands",
+        "flagEmoji": ":flag_fo:",
+        "majorCities": "Tórshavn, Klaksvík, Fuglafjørður, Tvøroyri, Miðvágur"
+    },{
+        "offset": 0,
+        "timezone": "Atlantic/Madeira",
+        "country": "Portugal",
+        "flagEmoji": ":flag_pt:",
+        "majorCities": "Funchal, Câmara de Lobos, São Martinho, Caniço, Machico"
+    },{
+        "offset": 0,
+        "timezone": "Atlantic/Reykjavik",
+        "country": "Iceland",
+        "flagEmoji": ":flag_is:",
+        "majorCities": "Reykjavík, Kópavogur, Hafnarfjörður, Akureyri, Garðabær"
+    },{
+        "offset": 0,
+        "timezone": "Atlantic/St_Helena",
+        "country": "Saint Helena",
+        "flagEmoji": ":flag_sh:",
+        "majorCities": "Jamestown, Georgetown, Edinburgh of the Seven Seas"
+    },{
+        "offset": 0,
+        "timezone": "Europe/Dublin",
+        "country": "Ireland",
+        "flagEmoji": ":flag_ie:",
+        "majorCities": "Dublin, Cork, Luimneach, Gaillimh, Tallaght"
+    },{
+        "offset": 0,
+        "timezone": "Europe/Guernsey",
+        "country": "Guernsey",
+        "flagEmoji": ":flag_gg:",
+        "majorCities": "Saint Peter Port, St Martin, Saint Sampson, St Anne, Saint Saviour"
+    },{
+        "offset": 0,
+        "timezone": "Europe/Isle_of_Man",
+        "country": "Isle of Man",
+        "flagEmoji": ":flag_im:",
+        "majorCities": "Douglas, Ramsey, Peel, Port Erin, Castletown"
+    },{
+        "offset": 0,
+        "timezone": "Europe/Jersey",
+        "country": "Jersey",
+        "flagEmoji": ":flag_je:",
+        "majorCities": "Saint Helier, Le Hocq"
+    },{
+        "offset": 0,
+        "timezone": "Europe/Lisbon",
+        "country": "Portugal",
+        "flagEmoji": ":flag_pt:",
+        "majorCities": "Lisbon, Porto, Amadora, Braga, Setúbal"
+    },{
+        "offset": 0,
+        "timezone": "Europe/London",
+        "country": "United Kingdom",
+        "flagEmoji": ":flag_gb:",
+        "majorCities": "London, Birmingham, Liverpool, Sheffield, Bristol"
+    },{
+        "offset": 1,
+        "timezone": "Africa/Algiers",
+        "country": "Algeria",
+        "flagEmoji": ":flag_dz:",
+        "majorCities": "Algiers, Boumerdas, Oran, Tébessa, Constantine"
+    },{
+        "offset": 1,
+        "timezone": "Africa/Bangui",
+        "country": "Central African Republic",
+        "flagEmoji": ":flag_cf:",
+        "majorCities": "Bangui, Bimbo, Mbaïki, Berbérati, Kaga Bandoro"
+    },{
+        "offset": 1,
+        "timezone": "Africa/Brazzaville",
+        "country": "Republic of the Congo",
+        "flagEmoji": ":flag_cg:",
+        "majorCities": "Brazzaville, Pointe-Noire, Dolisie, Kayes, Owando"
+    },{
+        "offset": 1,
+        "timezone": "Africa/Ceuta",
+        "country": "Spain",
+        "flagEmoji": ":flag_es:",
+        "majorCities": "Ceuta, Melilla"
+    },{
+        "offset": 1,
+        "timezone": "Africa/Douala",
+        "country": "Cameroon",
+        "flagEmoji": ":flag_cm:",
+        "majorCities": "Douala, Yaoundé, Garoua, Kousséri, Bamenda"
+    },{
+        "offset": 1,
+        "timezone": "Africa/Kinshasa",
+        "country": "Democratic Republic of the Congo",
+        "flagEmoji": ":flag_cd:",
+        "majorCities": "Kinshasa, Masina, Kikwit, Mbandaka, Matadi"
+    },{
+        "offset": 1,
+        "timezone": "Africa/Lagos",
+        "country": "Nigeria",
+        "flagEmoji": ":flag_ng:",
+        "majorCities": "Lagos, Kano, Ibadan, Kaduna, Port Harcourt"
+    },{
+        "offset": 1,
+        "timezone": "Africa/Libreville",
+        "country": "Gabon",
+        "flagEmoji": ":flag_ga:",
+        "majorCities": "Libreville, Port-Gentil, Franceville, Oyem, Moanda"
+    },{
+        "offset": 1,
+        "timezone": "Africa/Luanda",
+        "country": "Angola",
+        "flagEmoji": ":flag_ao:",
+        "majorCities": "Luanda, N’dalatando, Huambo, Lobito, Benguela"
+    },{
+        "offset": 1,
+        "timezone": "Africa/Malabo",
+        "country": "Equatorial Guinea",
+        "flagEmoji": ":flag_gq:",
+        "majorCities": "Bata, Malabo, Ebebiyin, Aconibe, Añisoc"
+    },{
+        "offset": 1,
+        "timezone": "Africa/Ndjamena",
+        "country": "Chad",
+        "flagEmoji": ":flag_td:",
+        "majorCities": "N'Djamena, Moundou, Sarh, Abéché, Kelo"
+    },{
+        "offset": 1,
+        "timezone": "Africa/Niamey",
+        "country": "Niger",
+        "flagEmoji": ":flag_ne:",
+        "majorCities": "Niamey, Zinder, Maradi, Agadez, Alaghsas"
+    },{
+        "offset": 1,
+        "timezone": "Africa/Porto-Novo",
+        "country": "Benin",
+        "flagEmoji": ":flag_bj:",
+        "majorCities": "Cotonou, Abomey-Calavi, Djougou, Porto-Novo, Parakou"
+    },{
+        "offset": 1,
+        "timezone": "Africa/Tunis",
+        "country": "Tunisia",
+        "flagEmoji": ":flag_tn:",
+        "majorCities": "Tunis, Sfax, Sousse, Kairouan, Bizerte"
+    },{
+        "offset": 1,
+        "timezone": "Africa/Windhoek",
+        "country": "Namibia",
+        "flagEmoji": ":flag_na:",
+        "majorCities": "Windhoek, Rundu, Walvis Bay, Oshakati, Swakopmund"
+    },{
+        "offset": 1,
+        "timezone": "Arctic/Longyearbyen",
+        "country": "Svalbard and Jan Mayen",
+        "flagEmoji": ":flag_sj:",
+        "majorCities": "Longyearbyen, Olonkinbyen"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Amsterdam",
+        "country": "Netherlands",
+        "flagEmoji": ":flag_nl:",
+        "majorCities": "Amsterdam, Rotterdam, The Hague, Utrecht, Eindhoven"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Andorra",
+        "country": "Andorra",
+        "flagEmoji": ":flag_ad:",
+        "majorCities": "Andorra la Vella, les Escaldes, Encamp, Sant Julià de Lòria, la Massana"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Belgrade",
+        "country": "Serbia",
+        "flagEmoji": ":flag_rs:",
+        "majorCities": "Belgrade, Pristina, Niš, Novi Sad, Prizren"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Berlin",
+        "country": "Germany",
+        "flagEmoji": ":flag_de:",
+        "majorCities": "Berlin, Hamburg, Munich, Köln, Frankfurt am Main"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Bratislava",
+        "country": "Slovakia",
+        "flagEmoji": ":flag_sk:",
+        "majorCities": "Bratislava, Košice, Prešov, Nitra, Žilina"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Brussels",
+        "country": "Belgium",
+        "flagEmoji": ":flag_be:",
+        "majorCities": "Brussels, Antwerpen, Gent, Charleroi, Liège"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Budapest",
+        "country": "Hungary",
+        "flagEmoji": ":flag_hu:",
+        "majorCities": "Budapest, Debrecen, Miskolc, Szeged, Pécs"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Copenhagen",
+        "country": "Denmark",
+        "flagEmoji": ":flag_dk:",
+        "majorCities": "Copenhagen, Århus, Odense, Aalborg, Frederiksberg"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Gibraltar",
+        "country": "Gibraltar",
+        "flagEmoji": ":flag_gi:",
+        "majorCities": "Gibraltar"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Ljubljana",
+        "country": "Slovenia",
+        "flagEmoji": ":flag_si:",
+        "majorCities": "Ljubljana, Maribor, Celje, Kranj, Velenje"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Luxembourg",
+        "country": "Luxembourg",
+        "flagEmoji": ":flag_lu:",
+        "majorCities": "Luxembourg, Esch-sur-Alzette, Dudelange, Schifflange, Bettembourg"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Madrid",
+        "country": "Spain",
+        "flagEmoji": ":flag_es:",
+        "majorCities": "Madrid, Barcelona, Valencia, Sevilla, Zaragoza"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Malta",
+        "country": "Malta",
+        "flagEmoji": ":flag_mt:",
+        "majorCities": "Birkirkara, Qormi, Mosta, Żabbar, San Pawl il-Baħar"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Monaco",
+        "country": "Monaco",
+        "flagEmoji": ":flag_mc:",
+        "majorCities": "Monaco, Monte-Carlo, La Condamine"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Oslo",
+        "country": "Norway",
+        "flagEmoji": ":flag_no:",
+        "majorCities": "Oslo, Bergen, Trondheim, Stavanger, Drammen"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Paris",
+        "country": "France",
+        "flagEmoji": ":flag_fr:",
+        "majorCities": "Paris, Marseille, Lyon, Toulouse, Nice"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Podgorica",
+        "country": "Montenegro",
+        "flagEmoji": ":flag_me:",
+        "majorCities": "Podgorica, Nikšić, Herceg Novi, Pljevlja, Budva"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Prague",
+        "country": "Czechia",
+        "flagEmoji": ":flag_cz:",
+        "majorCities": "Prague, Brno, Ostrava, Pilsen, Olomouc"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Rome",
+        "country": "Italy",
+        "flagEmoji": ":flag_it:",
+        "majorCities": "Rome, Milan, Naples, Turin, Palermo"
+    },{
+        "offset": 1,
+        "timezone": "Europe/San_Marino",
+        "country": "San Marino",
+        "flagEmoji": ":flag_sm:",
+        "majorCities": "Serravalle, Borgo Maggiore, San Marino, Domagnano, Fiorentino"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Sarajevo",
+        "country": "Bosnia and Herzegovina",
+        "flagEmoji": ":flag_ba:",
+        "majorCities": "Sarajevo, Banja Luka, Zenica, Tuzla, Mostar"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Skopje",
+        "country": "North Macedonia",
+        "flagEmoji": ":flag_mk:",
+        "majorCities": "Skopje, Bitola, Kumanovo, Prilep, Tetovo"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Stockholm",
+        "country": "Sweden",
+        "flagEmoji": ":flag_se:",
+        "majorCities": "Stockholm, Göteborg, Malmö, Uppsala, Sollentuna"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Tirane",
+        "country": "Albania",
+        "flagEmoji": ":flag_al:",
+        "majorCities": "Tirana, Durrës, Elbasan, Vlorë, Shkodër"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Vaduz",
+        "country": "Liechtenstein",
+        "flagEmoji": ":flag_li:",
+        "majorCities": "Schaan, Vaduz, Triesen, Balzers, Eschen"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Vatican",
+        "country": "Vatican",
+        "flagEmoji": ":flag_va:",
+        "majorCities": "Vatican City"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Vienna",
+        "country": "Austria",
+        "flagEmoji": ":flag_at:",
+        "majorCities": "Vienna, Graz, Linz, Favoriten, Donaustadt"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Warsaw",
+        "country": "Poland",
+        "flagEmoji": ":flag_pl:",
+        "majorCities": "Warsaw, Łódź, Kraków, Wrocław, Poznań"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Zagreb",
+        "country": "Croatia",
+        "flagEmoji": ":flag_hr:",
+        "majorCities": "Zagreb, Split, Rijeka, Osijek, Zadar"
+    },{
+        "offset": 1,
+        "timezone": "Europe/Zurich",
+        "country": "Switzerland",
+        "flagEmoji": ":flag_ch:",
+        "majorCities": "Zürich, Genève, Basel, Lausanne, Bern"
+    },{
+        "offset": 2,
+        "timezone": "Africa/Blantyre",
+        "country": "Malawi",
+        "flagEmoji": ":flag_mw:",
+        "majorCities": "Lilongwe, Blantyre, Mzuzu, Zomba, Kasungu"
+    },{
+        "offset": 2,
+        "timezone": "Africa/Bujumbura",
+        "country": "Burundi",
+        "flagEmoji": ":flag_bi:",
+        "majorCities": "Bujumbura, Muyinga, Gitega, Ruyigi, Ngozi"
+    },{
+        "offset": 2,
+        "timezone": "Africa/Cairo",
+        "country": "Egypt",
+        "flagEmoji": ":flag_eg:",
+        "majorCities": "Cairo, Alexandria, Giza, Port Said, Suez"
+    },{
+        "offset": 2,
+        "timezone": "Africa/Gaborone",
+        "country": "Botswana",
+        "flagEmoji": ":flag_bw:",
+        "majorCities": "Gaborone, Francistown, Molepolole, Selebi-Phikwe, Maun"
+    },{
+        "offset": 2,
+        "timezone": "Africa/Harare",
+        "country": "Zimbabwe",
+        "flagEmoji": ":flag_zw:",
+        "majorCities": "Harare, Bulawayo, Chitungwiza, Mutare, Gweru"
+    },{
+        "offset": 2,
+        "timezone": "Africa/Johannesburg",
+        "country": "South Africa",
+        "flagEmoji": ":flag_za:",
+        "majorCities": "Cape Town, Durban, Johannesburg, Soweto, Pretoria"
+    },{
+        "offset": 2,
+        "timezone": "Africa/Juba",
+        "country": "South Sudan",
+        "flagEmoji": ":flag_ss:",
+        "majorCities": "Juba, Winejok, Malakal, Wau, Kuacjok"
+    },{
+        "offset": 2,
+        "timezone": "Africa/Khartoum",
+        "country": "Sudan",
+        "flagEmoji": ":flag_sd:",
+        "majorCities": "Khartoum, Omdurman, Nyala, Port Sudan, Kassala"
+    },{
+        "offset": 2,
+        "timezone": "Africa/Kigali",
+        "country": "Rwanda",
+        "flagEmoji": ":flag_rw:",
+        "majorCities": "Kigali, Butare, Gitarama, Musanze, Gisenyi"
+    },{
+        "offset": 2,
+        "timezone": "Africa/Lubumbashi",
+        "country": "Democratic Republic of the Congo",
+        "flagEmoji": ":flag_cd:",
+        "majorCities": "Lubumbashi, Mbuji-Mayi, Kisangani, Kananga, Likasi"
+    },{
+        "offset": 2,
+        "timezone": "Africa/Lusaka",
+        "country": "Zambia",
+        "flagEmoji": ":flag_zm:",
+        "majorCities": "Lusaka, Kitwe, Ndola, Kabwe, Chingola"
+    },{
+        "offset": 2,
+        "timezone": "Africa/Maputo",
+        "country": "Mozambique",
+        "flagEmoji": ":flag_mz:",
+        "majorCities": "Maputo, Matola, Beira, Nampula, Chimoio"
+    },{
+        "offset": 2,
+        "timezone": "Africa/Maseru",
+        "country": "Lesotho",
+        "flagEmoji": ":flag_ls:",
+        "majorCities": "Maseru, Mafeteng, Leribe, Maputsoe, Mohale’s Hoek"
+    },{
+        "offset": 2,
+        "timezone": "Africa/Mbabane",
+        "country": "Eswatini",
+        "flagEmoji": ":flag_sz:",
+        "majorCities": "Manzini, Mbabane, Big Bend, Malkerns, Nhlangano"
+    },{
+        "offset": 2,
+        "timezone": "Africa/Tripoli",
+        "country": "Libya",
+        "flagEmoji": ":flag_ly:",
+        "majorCities": "Tripoli, Benghazi, Mişrātah, Tarhuna, Al Khums"
+    },{
+        "offset": 2,
+        "timezone": "Asia/Amman",
+        "country": "Jordan",
+        "flagEmoji": ":flag_jo:",
+        "majorCities": "Amman, Zarqa, Irbid, Russeifa, Wādī as Sīr"
+    },{
+        "offset": 2,
+        "timezone": "Asia/Beirut",
+        "country": "Lebanon",
+        "flagEmoji": ":flag_lb:",
+        "majorCities": "Beirut, Ra’s Bayrūt, Tripoli, Sidon, Tyre"
+    },{
+        "offset": 2,
+        "timezone": "Asia/Damascus",
+        "country": "Syria",
+        "flagEmoji": ":flag_sy:",
+        "majorCities": "Aleppo, Damascus, Homs, Ḩamāh, Latakia"
+    },{
+        "offset": 2,
+        "timezone": "Asia/Famagusta",
+        "country": "Cyprus",
+        "flagEmoji": ":flag_cy:",
+        "majorCities": "Famagusta, Kyrenia, Protaras, Paralímni, Lápithos"
+    },{
+        "offset": 2,
+        "timezone": "Asia/Gaza",
+        "country": "Palestinian Territory",
+        "flagEmoji": ":flag_ps:",
+        "majorCities": "Gaza, Khān Yūnis, Jabālyā, Rafaḩ, Dayr al Balaḩ"
+    },{
+        "offset": 2,
+        "timezone": "Asia/Hebron",
+        "country": "Palestinian Territory",
+        "flagEmoji": ":flag_ps:",
+        "majorCities": "East Jerusalem, Hebron, Nablus, Battir, Ţūlkarm"
+    },{
+        "offset": 2,
+        "timezone": "Asia/Jerusalem",
+        "country": "Israel",
+        "flagEmoji": ":flag_il:",
+        "majorCities": "Jerusalem, Tel Aviv, West Jerusalem, Haifa, Ashdod"
+    },{
+        "offset": 2,
+        "timezone": "Asia/Nicosia",
+        "country": "Cyprus",
+        "flagEmoji": ":flag_cy:",
+        "majorCities": "Nicosia, Limassol, Larnaca, Stróvolos, Paphos"
+    },{
+        "offset": 2,
+        "timezone": "Europe/Athens",
+        "country": "Greece",
+        "flagEmoji": ":flag_gr:",
+        "majorCities": "Athens, Thessaloníki, Pátra, Piraeus, Lárisa"
+    },{
+        "offset": 2,
+        "timezone": "Europe/Bucharest",
+        "country": "Romania",
+        "flagEmoji": ":flag_ro:",
+        "majorCities": "Bucharest, Sector 3, Sector 6, Sector 2, Iaşi"
+    },{
+        "offset": 2,
+        "timezone": "Europe/Chisinau",
+        "country": "Moldova",
+        "flagEmoji": ":flag_md:",
+        "majorCities": "Chisinau, Tiraspol, Bălţi, Bender, Rîbniţa"
+    },{
+        "offset": 2,
+        "timezone": "Europe/Helsinki",
+        "country": "Finland",
+        "flagEmoji": ":flag_fi:",
+        "majorCities": "Helsinki, Espoo, Tampere, Vantaa, Turku"
+    },{
+        "offset": 2,
+        "timezone": "Europe/Kaliningrad",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": "Kaliningrad, Chernyakhovsk, Sovetsk, Baltiysk, Gusev"
+    },{
+        "offset": 2,
+        "timezone": "Europe/Kiev",
+        "country": "Ukraine",
+        "flagEmoji": ":flag_ua:",
+        "majorCities": "Kyiv, Kharkiv, Donetsk, Odessa, Dnipro"
+    },{
+        "offset": 2,
+        "timezone": "Europe/Mariehamn",
+        "country": "Aland Islands",
+        "flagEmoji": ":flag_ax:",
+        "majorCities": "Mariehamn"
+    },{
+        "offset": 2,
+        "timezone": "Europe/Riga",
+        "country": "Latvia",
+        "flagEmoji": ":flag_lv:",
+        "majorCities": "Riga, Daugavpils, Liepāja, Jelgava, Jūrmala"
+    },{
+        "offset": 2,
+        "timezone": "Europe/Sofia",
+        "country": "Bulgaria",
+        "flagEmoji": ":flag_bg:",
+        "majorCities": "Sofia, Plovdiv, Varna, Burgas, Ruse"
+    },{
+        "offset": 2,
+        "timezone": "Europe/Tallinn",
+        "country": "Estonia",
+        "flagEmoji": ":flag_ee:",
+        "majorCities": "Tallinn, Tartu, Narva, Kohtla-Järve, Pärnu"
+    },{
+        "offset": 2,
+        "timezone": "Europe/Uzhgorod",
+        "country": "Ukraine",
+        "flagEmoji": ":flag_ua:",
+        "majorCities": "Uzhgorod, Mukachevo, Khust, Berehove, Tyachiv"
+    },{
+        "offset": 2,
+        "timezone": "Europe/Vilnius",
+        "country": "Lithuania",
+        "flagEmoji": ":flag_lt:",
+        "majorCities": "Vilnius, Kaunas, Klaipėda, Šiauliai, Panevėžys"
+    },{
+        "offset": 2,
+        "timezone": "Europe/Zaporozhye",
+        "country": "Ukraine",
+        "flagEmoji": ":flag_ua:",
+        "majorCities": "Luhansk, Sevastopol, Sievierodonetsk, Alchevsk, Lysychansk"
+    },{
+        "offset": 3,
+        "timezone": "Africa/Addis_Ababa",
+        "country": "Ethiopia",
+        "flagEmoji": ":flag_et:",
+        "majorCities": "Addis Ababa, Dire Dawa, Mek'ele, Nazrēt, Bahir Dar"
+    },{
+        "offset": 3,
+        "timezone": "Africa/Asmara",
+        "country": "Eritrea",
+        "flagEmoji": ":flag_er:",
+        "majorCities": "Asmara, Keren, Massawa, Assab, Mendefera"
+    },{
+        "offset": 3,
+        "timezone": "Africa/Dar_es_Salaam",
+        "country": "Tanzania",
+        "flagEmoji": ":flag_tz:",
+        "majorCities": "Dar es Salaam, Mwanza, Zanzibar, Arusha, Mbeya"
+    },{
+        "offset": 3,
+        "timezone": "Africa/Djibouti",
+        "country": "Djibouti",
+        "flagEmoji": ":flag_dj:",
+        "majorCities": "Djibouti, 'Ali Sabieh, Tadjourah, Obock, Dikhil"
+    },{
+        "offset": 3,
+        "timezone": "Africa/Kampala",
+        "country": "Uganda",
+        "flagEmoji": ":flag_ug:",
+        "majorCities": "Kampala, Gulu, Lira, Mbarara, Jinja"
+    },{
+        "offset": 3,
+        "timezone": "Africa/Mogadishu",
+        "country": "Somalia",
+        "flagEmoji": ":flag_so:",
+        "majorCities": "Mogadishu, Hargeysa, Berbera, Kismayo, Marka"
+    },{
+        "offset": 3,
+        "timezone": "Africa/Nairobi",
+        "country": "Kenya",
+        "flagEmoji": ":flag_ke:",
+        "majorCities": "Nairobi, Mombasa, Nakuru, Eldoret, Kisumu"
+    },{
+        "offset": 3,
+        "timezone": "Antarctica/Syowa",
+        "country": "Antarctica",
+        "flagEmoji": ":flag_aq:",
+        "majorCities": ""
+    },{
+        "offset": 3,
+        "timezone": "Asia/Aden",
+        "country": "Yemen",
+        "flagEmoji": ":flag_ye:",
+        "majorCities": "Sanaa, Al Ḩudaydah, Taiz, Aden, Mukalla"
+    },{
+        "offset": 3,
+        "timezone": "Asia/Baghdad",
+        "country": "Iraq",
+        "flagEmoji": ":flag_iq:",
+        "majorCities": "Baghdad, Basrah, Al Mawşil al Jadīdah, Al Başrah al Qadīmah, Mosul"
+    },{
+        "offset": 3,
+        "timezone": "Asia/Bahrain",
+        "country": "Bahrain",
+        "flagEmoji": ":flag_bh:",
+        "majorCities": "Manama, Al Muharraq, Ar Rifā‘, Dār Kulayb, Madīnat Ḩamad"
+    },{
+        "offset": 3,
+        "timezone": "Asia/Kuwait",
+        "country": "Kuwait",
+        "flagEmoji": ":flag_kw:",
+        "majorCities": "Al Aḩmadī, Ḩawallī, As Sālimīyah, Şabāḩ as Sālim, Al Farwānīyah"
+    },{
+        "offset": 3,
+        "timezone": "Asia/Qatar",
+        "country": "Qatar",
+        "flagEmoji": ":flag_qa:",
+        "majorCities": "Doha, Ar Rayyān, Umm Şalāl Muḩammad, Al Wakrah, Al Khawr"
+    },{
+        "offset": 3,
+        "timezone": "Asia/Riyadh",
+        "country": "Saudi Arabia",
+        "flagEmoji": ":flag_sa:",
+        "majorCities": "Riyadh, Jeddah, Mecca, Medina, Sulţānah"
+    },{
+        "offset": 3,
+        "timezone": "Europe/Istanbul",
+        "country": "Turkey",
+        "flagEmoji": ":flag_tr:",
+        "majorCities": "Istanbul, Ankara, İzmir, Bursa, Adana"
+    },{
+        "offset": 3,
+        "timezone": "Europe/Kirov",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": "Kirov, Kirovo-Chepetsk, Vyatskiye Polyany, Slobodskoy, Kotel’nich"
+    },{
+        "offset": 3,
+        "timezone": "Europe/Minsk",
+        "country": "Belarus",
+        "flagEmoji": ":flag_by:",
+        "majorCities": "Minsk, Homyel', Mahilyow, Vitebsk, Hrodna"
+    },{
+        "offset": 3,
+        "timezone": "Europe/Moscow",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": "Moscow, Saint Petersburg, Nizhniy Novgorod, Kazan, Rostov-na-Donu"
+    },{
+        "offset": 3,
+        "timezone": "Europe/Simferopol",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": "Simferopol, Kerch, Yevpatoriya, Yalta, Feodosiya"
+    },{
+        "offset": 3,
+        "timezone": "Europe/Volgograd",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": "Volgograd, Volzhskiy, Kamyshin, Mikhaylovka, Uryupinsk"
+    },{
+        "offset": 3,
+        "timezone": "Indian/Antananarivo",
+        "country": "Madagascar",
+        "flagEmoji": ":flag_mg:",
+        "majorCities": "Antananarivo, Toamasina, Antsirabe, Fianarantsoa, Mahajanga"
+    },{
+        "offset": 3,
+        "timezone": "Indian/Comoro",
+        "country": "Comoros",
+        "flagEmoji": ":flag_km:",
+        "majorCities": "Moroni, Moutsamoudou, Fomboni, Domoni, Tsimbeo"
+    },{
+        "offset": 3,
+        "timezone": "Indian/Mayotte",
+        "country": "Mayotte",
+        "flagEmoji": ":flag_yt:",
+        "majorCities": "Mamoudzou, Koungou, Dzaoudzi, Dembeni, Sada"
+    },{
+        "offset": 3,
+        "timezone": "Asia/Tehran",
+        "country": "Iran",
+        "flagEmoji": ":flag_ir:",
+        "majorCities": "Tehran, Mashhad, Isfahan, Karaj, Tabriz"
+    },{
+        "offset": 4,
+        "timezone": "Asia/Baku",
+        "country": "Azerbaijan",
+        "flagEmoji": ":flag_az:",
+        "majorCities": "Baku, Ganja, Sumqayıt, Lankaran, Yevlakh"
+    },{
+        "offset": 4,
+        "timezone": "Asia/Dubai",
+        "country": "United Arab Emirates",
+        "flagEmoji": ":flag_ae:",
+        "majorCities": "Dubai, Sharjah, Abu Dhabi, Ajman City, Ras Al Khaimah City"
+    },{
+        "offset": 4,
+        "timezone": "Asia/Muscat",
+        "country": "Oman",
+        "flagEmoji": ":flag_om:",
+        "majorCities": "Muscat, Seeb, Şalālah, Bawshar, Sohar"
+    },{
+        "offset": 4,
+        "timezone": "Asia/Tbilisi",
+        "country": "Georgia",
+        "flagEmoji": ":flag_ge:",
+        "majorCities": "Tbilisi, Kutaisi, Batumi, Sokhumi, Zugdidi"
+    },{
+        "offset": 4,
+        "timezone": "Asia/Yerevan",
+        "country": "Armenia",
+        "flagEmoji": ":flag_am:",
+        "majorCities": "Yerevan, Gyumri, Vanadzor, Vagharshapat, Hrazdan"
+    },{
+        "offset": 4,
+        "timezone": "Europe/Astrakhan",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": "Astrakhan, Akhtubinsk, Znamensk, Kharabali, Kamyzyak"
+    },{
+        "offset": 4,
+        "timezone": "Europe/Samara",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": "Samara, Togliatti-on-the-Volga, Izhevsk, Syzran’, Novokuybyshevsk"
+    },{
+        "offset": 4,
+        "timezone": "Europe/Saratov",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": "Saratov, Balakovo, Engel’s, Balashov, Vol’sk"
+    },{
+        "offset": 4,
+        "timezone": "Europe/Ulyanovsk",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": "Ulyanovsk, Dimitrovgrad, Inza, Barysh, Novoul’yanovsk"
+    },{
+        "offset": 4,
+        "timezone": "Indian/Mahe",
+        "country": "Seychelles",
+        "flagEmoji": ":flag_sc:",
+        "majorCities": "Victoria, Anse Boileau, Bel Ombre, Beau Vallon, Cascade"
+    },{
+        "offset": 4,
+        "timezone": "Indian/Mauritius",
+        "country": "Mauritius",
+        "flagEmoji": ":flag_mu:",
+        "majorCities": "Port Louis, Beau Bassin-Rose Hill, Vacoas, Curepipe, Quatre Bornes"
+    },{
+        "offset": 4,
+        "timezone": "Indian/Reunion",
+        "country": "Reunion",
+        "flagEmoji": ":flag_re:",
+        "majorCities": "Saint-Denis, Saint-Paul, Saint-Pierre, Le Tampon, Saint-André"
+    },{
+        "offset": 4,
+        "timezone": "Asia/Kabul",
+        "country": "Afghanistan",
+        "flagEmoji": ":flag_af:",
+        "majorCities": "Kabul, Kandahār, Mazār-e Sharīf, Herāt, Jalālābād"
+    },{
+        "offset": 5,
+        "timezone": "Antarctica/Mawson",
+        "country": "Antarctica",
+        "flagEmoji": ":flag_aq:",
+        "majorCities": ""
+    },{
+        "offset": 5,
+        "timezone": "Asia/Aqtau",
+        "country": "Kazakhstan",
+        "flagEmoji": ":flag_kz:",
+        "majorCities": "Shevchenko, Zhanaozen, Beyneu, Shetpe, Yeraliyev"
+    },{
+        "offset": 5,
+        "timezone": "Asia/Aqtobe",
+        "country": "Kazakhstan",
+        "flagEmoji": ":flag_kz:",
+        "majorCities": "Aktobe, Kandyagash, Shalqar, Khromtau, Embi"
+    },{
+        "offset": 5,
+        "timezone": "Asia/Ashgabat",
+        "country": "Turkmenistan",
+        "flagEmoji": ":flag_tm:",
+        "majorCities": "Ashgabat, Türkmenabat, Daşoguz, Mary, Balkanabat"
+    },{
+        "offset": 5,
+        "timezone": "Asia/Atyrau",
+        "country": "Kazakhstan",
+        "flagEmoji": ":flag_kz:",
+        "majorCities": "Atyrau, Qulsary, Shalkar, Balykshi, Maqat"
+    },{
+        "offset": 5,
+        "timezone": "Asia/Dushanbe",
+        "country": "Tajikistan",
+        "flagEmoji": ":flag_tj:",
+        "majorCities": "Dushanbe, Khujand, Kŭlob, Bokhtar, Istaravshan"
+    },{
+        "offset": 5,
+        "timezone": "Asia/Karachi",
+        "country": "Pakistan",
+        "flagEmoji": ":flag_pk:",
+        "majorCities": "Karachi, Lahore, Faisalabad, Rawalpindi, Multan"
+    },{
+        "offset": 5,
+        "timezone": "Asia/Oral",
+        "country": "Kazakhstan",
+        "flagEmoji": ":flag_kz:",
+        "majorCities": "Oral, Aqsay, Zhänibek, Tasqala, Zhumysker"
+    },{
+        "offset": 5,
+        "timezone": "Asia/Qyzylorda",
+        "country": "Kazakhstan",
+        "flagEmoji": ":flag_kz:",
+        "majorCities": "Kyzylorda, Baikonur, Novokazalinsk, Aral, Chiili"
+    },{
+        "offset": 5,
+        "timezone": "Asia/Samarkand",
+        "country": "Uzbekistan",
+        "flagEmoji": ":flag_uz:",
+        "majorCities": "Samarkand, Bukhara, Nukus, Qarshi, Jizzax"
+    },{
+        "offset": 5,
+        "timezone": "Asia/Tashkent",
+        "country": "Uzbekistan",
+        "flagEmoji": ":flag_uz:",
+        "majorCities": "Tashkent, Namangan, Andijon, Qo‘qon, Chirchiq"
+    },{
+        "offset": 5,
+        "timezone": "Asia/Yekaterinburg",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": "Yekaterinburg, Chelyabinsk, Ufa, Perm, Orenburg"
+    },{
+        "offset": 5,
+        "timezone": "Indian/Kerguelen",
+        "country": "French Southern Territories",
+        "flagEmoji": ":flag_tf:",
+        "majorCities": "Port-aux-Français"
+    },{
+        "offset": 5,
+        "timezone": "Indian/Maldives",
+        "country": "Maldives",
+        "flagEmoji": ":flag_mv:",
+        "majorCities": "Male, Fuvahmulah, Hithadhoo, Kulhudhuffushi, Thinadhoo"
+    },{
+        "offset": 5,
+        "timezone": "Asia/Colombo",
+        "country": "Sri Lanka",
+        "flagEmoji": ":flag_lk:",
+        "majorCities": "Colombo, Dehiwala-Mount Lavinia, Moratuwa, Jaffna, Negombo"
+    },{
+        "offset": 5,
+        "timezone": "Asia/Kolkata",
+        "country": "India",
+        "flagEmoji": ":flag_in:",
+        "majorCities": "Mumbai, Delhi, Bengaluru, Kolkata, Chennai"
+    },{
+        "offset": 5,
+        "timezone": "Asia/Kathmandu",
+        "country": "Nepal",
+        "flagEmoji": ":flag_np:",
+        "majorCities": "Kathmandu, Pokhara, Pātan, Biratnagar, Birgañj"
+    },{
+        "offset": 6,
+        "timezone": "Antarctica/Vostok",
+        "country": "Antarctica",
+        "flagEmoji": ":flag_aq:",
+        "majorCities": ""
+    },{
+        "offset": 6,
+        "timezone": "Asia/Almaty",
+        "country": "Kazakhstan",
+        "flagEmoji": ":flag_kz:",
+        "majorCities": "Almaty, Karagandy, Shymkent, Taraz, Nur-Sultan"
+    },{
+        "offset": 6,
+        "timezone": "Asia/Bishkek",
+        "country": "Kyrgyzstan",
+        "flagEmoji": ":flag_kg:",
+        "majorCities": "Bishkek, Osh, Jalal-Abad, Karakol, Tokmok"
+    },{
+        "offset": 6,
+        "timezone": "Asia/Dhaka",
+        "country": "Bangladesh",
+        "flagEmoji": ":flag_bd:",
+        "majorCities": "Dhaka, Chattogram, Khulna, Rājshāhi, Comilla"
+    },{
+        "offset": 6,
+        "timezone": "Asia/Omsk",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": "Omsk, Tara, Kalachinsk, Znamenskoye, Tavricheskoye"
+    },{
+        "offset": 6,
+        "timezone": "Asia/Qostanay",
+        "country": "Kazakhstan",
+        "flagEmoji": ":flag_kz:",
+        "majorCities": "Kostanay, Rudnyy, Dzhetygara, Arkalyk, Lisakovsk"
+    },{
+        "offset": 6,
+        "timezone": "Asia/Thimphu",
+        "country": "Bhutan",
+        "flagEmoji": ":flag_bt:",
+        "majorCities": "Thimphu, Punākha, Tsirang, Phuntsholing, Pemagatshel"
+    },{
+        "offset": 6,
+        "timezone": "Asia/Urumqi",
+        "country": "China",
+        "flagEmoji": ":flag_cn:",
+        "majorCities": "Zhongshan, Ürümqi, Zhanjiang, Shihezi, Huocheng"
+    },{
+        "offset": 6,
+        "timezone": "Indian/Chagos",
+        "country": "British Indian Ocean Territory",
+        "flagEmoji": ":flag_io:",
+        "majorCities": ""
+    },{
+        "offset": 6,
+        "timezone": "Asia/Yangon",
+        "country": "Myanmar",
+        "flagEmoji": ":flag_mm:",
+        "majorCities": "Yangon, Mandalay, Nay Pyi Taw, Mawlamyine, Kyain Seikgyi Township"
+    },{
+        "offset": 6,
+        "timezone": "Indian/Cocos",
+        "country": "Cocos Islands",
+        "flagEmoji": ":flag_cc:",
+        "majorCities": "West Island"
+    },{
+        "offset": 7,
+        "timezone": "Antarctica/Davis",
+        "country": "Antarctica",
+        "flagEmoji": ":flag_aq:",
+        "majorCities": ""
+    },{
+        "offset": 7,
+        "timezone": "Asia/Bangkok",
+        "country": "Thailand",
+        "flagEmoji": ":flag_th:",
+        "majorCities": "Bangkok, Hanoi, Haiphong, Samut Prakan, Mueang Nonthaburi"
+    },{
+        "offset": 7,
+        "timezone": "Asia/Barnaul",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": "Barnaul, Biysk, Rubtsovsk, Novoaltaysk, Gorno-Altaysk"
+    },{
+        "offset": 7,
+        "timezone": "Asia/Hovd",
+        "country": "Mongolia",
+        "flagEmoji": ":flag_mn:",
+        "majorCities": "Khovd, Ölgii, Ulaangom, Uliastay, Altai"
+    },{
+        "offset": 7,
+        "timezone": "Asia/Ho_Chi_Minh",
+        "country": "Vietnam",
+        "flagEmoji": ":flag_vn:",
+        "majorCities": "Ho Chi Minh City, Da Nang, Biên Hòa, Nha Trang, Cần Thơ"
+    },{
+        "offset": 7,
+        "timezone": "Asia/Jakarta",
+        "country": "Indonesia",
+        "flagEmoji": ":flag_id:",
+        "majorCities": "Jakarta, Surabaya, Medan, Bandung, Bekasi"
+    },{
+        "offset": 7,
+        "timezone": "Asia/Krasnoyarsk",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": "Krasnoyarsk, Abakan, Norilsk, Achinsk, Kyzyl"
+    },{
+        "offset": 7,
+        "timezone": "Asia/Novokuznetsk",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": "Novokuznetsk, Kemerovo, Prokop’yevsk, Leninsk-Kuznetsky, Kiselëvsk"
+    },{
+        "offset": 7,
+        "timezone": "Asia/Novosibirsk",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": "Novosibirsk, Berdsk, Iskitim, Akademgorodok, Kuybyshev"
+    },{
+        "offset": 7,
+        "timezone": "Asia/Phnom_Penh",
+        "country": "Cambodia",
+        "flagEmoji": ":flag_kh:",
+        "majorCities": "Phnom Penh, Takeo, Sihanoukville, Battambang, Siem Reap"
+    },{
+        "offset": 7,
+        "timezone": "Asia/Pontianak",
+        "country": "Indonesia",
+        "flagEmoji": ":flag_id:",
+        "majorCities": "Pontianak, Tanjung Pinang, Palangkaraya, Singkawang, Sampit"
+    },{
+        "offset": 7,
+        "timezone": "Asia/Tomsk",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": "Tomsk, Seversk, Strezhevoy, Kolpashevo, Asino"
+    },{
+        "offset": 7,
+        "timezone": "Asia/Vientiane",
+        "country": "Laos",
+        "flagEmoji": ":flag_la:",
+        "majorCities": "Vientiane, Pakse, Thakhèk, Savannakhet, Luang Prabang"
+    },{
+        "offset": 7,
+        "timezone": "Indian/Christmas",
+        "country": "Christmas Island",
+        "flagEmoji": ":flag_cx:",
+        "majorCities": "Flying Fish Cove"
+    },{
+        "offset": 8,
+        "timezone": "Asia/Brunei",
+        "country": "Brunei",
+        "flagEmoji": ":flag_bn:",
+        "majorCities": "Bandar Seri Begawan, Kuala Belait, Seria, Tutong, Bangar"
+    },{
+        "offset": 8,
+        "timezone": "Asia/Choibalsan",
+        "country": "Mongolia",
+        "flagEmoji": ":flag_mn:",
+        "majorCities": "Baruun-Urt, Choibalsan"
+    },{
+        "offset": 8,
+        "timezone": "Asia/Hong_Kong",
+        "country": "Hong Kong",
+        "flagEmoji": ":flag_hk:",
+        "majorCities": "Hong Kong, Kowloon, Tsuen Wan, Yuen Long Kau Hui, Tung Chung"
+    },{
+        "offset": 8,
+        "timezone": "Asia/Irkutsk",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": "Irkutsk, Ulan-Ude, Bratsk, Angarsk, Ust’-Ilimsk"
+    },{
+        "offset": 8,
+        "timezone": "Asia/Kuala_Lumpur",
+        "country": "Malaysia",
+        "flagEmoji": ":flag_my:",
+        "majorCities": "Kota Bharu, Kuala Lumpur, Klang, Kampung Baru Subang, Johor Bahru"
+    },{
+        "offset": 8,
+        "timezone": "Asia/Kuching",
+        "country": "Malaysia",
+        "flagEmoji": ":flag_my:",
+        "majorCities": "Kuching, Kota Kinabalu, Sandakan, Tawau, Miri"
+    },{
+        "offset": 8,
+        "timezone": "Asia/Macau",
+        "country": "Macao",
+        "flagEmoji": ":flag_mo:",
+        "majorCities": "Macau"
+    },{
+        "offset": 8,
+        "timezone": "Asia/Makassar",
+        "country": "Indonesia",
+        "flagEmoji": ":flag_id:",
+        "majorCities": "Makassar, Denpasar, City of Balikpapan, Banjarmasin, Manado"
+    },{
+        "offset": 8,
+        "timezone": "Asia/Manila",
+        "country": "Philippines",
+        "flagEmoji": ":flag_ph:",
+        "majorCities": "Quezon City, Manila, Caloocan City, Budta, Davao"
+    },{
+        "offset": 8,
+        "timezone": "Asia/Shanghai",
+        "country": "China",
+        "flagEmoji": ":flag_cn:",
+        "majorCities": "Shanghai, Beijing, Tianjin, Guangzhou, Shenzhen"
+    },{
+        "offset": 8,
+        "timezone": "Asia/Singapore",
+        "country": "Singapore",
+        "flagEmoji": ":flag_sg:",
+        "majorCities": "Singapore, Woodlands"
+    },{
+        "offset": 8,
+        "timezone": "Asia/Taipei",
+        "country": "Taiwan",
+        "flagEmoji": ":flag_tw:",
+        "majorCities": "Taipei, Kaohsiung, Taichung, Tainan, Banqiao"
+    },{
+        "offset": 8,
+        "timezone": "Asia/Ulaanbaatar",
+        "country": "Mongolia",
+        "flagEmoji": ":flag_mn:",
+        "majorCities": "Ulan Bator, Erdenet, Darhan, Hovd, Mörön"
+    },{
+        "offset": 8,
+        "timezone": "Australia/Perth",
+        "country": "Australia",
+        "flagEmoji": ":flag_au:",
+        "majorCities": "Perth, Rockingham, Mandurah, Bunbury, Albany"
+    },{
+        "offset": 8,
+        "timezone": "Australia/Eucla",
+        "country": "Australia",
+        "flagEmoji": ":flag_au:",
+        "majorCities": ""
+    },{
+        "offset": 9,
+        "timezone": "Asia/Chita",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": "Chita, Krasnokamensk, Borzya, Petrovsk-Zabaykal’skiy, Aginskoye"
+    },{
+        "offset": 9,
+        "timezone": "Asia/Dili",
+        "country": "Timor Leste",
+        "flagEmoji": ":flag_tl:",
+        "majorCities": "Dili, Maliana, Suai, Likisá, Aileu"
+    },{
+        "offset": 9,
+        "timezone": "Asia/Jayapura",
+        "country": "Indonesia",
+        "flagEmoji": ":flag_id:",
+        "majorCities": "Ambon, Jayapura, Sorong, Ternate, Abepura"
+    },{
+        "offset": 9,
+        "timezone": "Asia/Khandyga",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": ""
+    },{
+        "offset": 9,
+        "timezone": "Asia/Pyongyang",
+        "country": "North Korea",
+        "flagEmoji": ":flag_kp:",
+        "majorCities": "Pyongyang, Hamhŭng, Namp’o, Sunch’ŏn, Hŭngnam"
+    },{
+        "offset": 9,
+        "timezone": "Asia/Seoul",
+        "country": "South Korea",
+        "flagEmoji": ":flag_kr:",
+        "majorCities": "Seoul, Busan, Incheon, Daegu, Daejeon"
+    },{
+        "offset": 9,
+        "timezone": "Asia/Tokyo",
+        "country": "Japan",
+        "flagEmoji": ":flag_jp:",
+        "majorCities": "Tokyo, Yokohama, Osaka, Nagoya, Sapporo"
+    },{
+        "offset": 9,
+        "timezone": "Asia/Yakutsk",
+        "country": "Russia",
+        "flagEmoji": ":flag_ru:",
+        "majorCities": "Yakutsk, Blagoveshchensk, Belogorsk, Neryungri, Svobodnyy"
+    },{
+        "offset": 9,
+        "timezone": "Pacific/Palau",
+        "country": "Palau",
+        "flagEmoji": ":flag_pw:",
+        "majorCities": "Koror, Koror Town, Kloulklubed, Ulimang, Mengellang"
+        },{
+            "offset": 9,
+            "timezone": "Australia/Adelaide",
+            "country": "Australia",
+            "flagEmoji": ":flag_au:",
+            "majorCities": "Adelaide, Adelaide Hills, Mount Gambier, Morphett Vale, Gawler"
+        },{
+            "offset": 9,
+            "timezone": "Australia/Broken_Hill",
+            "country": "Australia",
+            "flagEmoji": ":flag_au:",
+            "majorCities": "Broken Hill"
+        },{
+            "offset": 9,
+            "timezone": "Australia/Darwin",
+            "country": "Australia",
+            "flagEmoji": ":flag_au:",
+            "majorCities": "Darwin, Alice Springs, Palmerston, Howard Springs"
+        },{
+            "offset": 10,
+            "timezone": "Antarctica/DumontDUrville",
+            "country": "Antarctica",
+            "flagEmoji": ":flag_aq:",
+            "majorCities": ""
+        },{
+            "offset": 10,
+            "timezone": "Antarctica/Macquarie",
+            "country": "Australia",
+            "flagEmoji": ":flag_au:",
+            "majorCities": ""
+        },{
+            "offset": 10,
+            "timezone": "Asia/Ust-Nera",
+            "country": "Russia",
+            "flagEmoji": ":flag_ru:",
+            "majorCities": ""
+        },{
+            "offset": 10,
+            "timezone": "Asia/Vladivostok",
+            "country": "Russia",
+            "flagEmoji": ":flag_ru:",
+            "majorCities": "Vladivostok, Khabarovsk, Khabarovsk Vtoroy, Komsomolsk-on-Amur, Ussuriysk"
+        },{
+            "offset": 10,
+            "timezone": "Australia/Brisbane",
+            "country": "Australia",
+            "flagEmoji": ":flag_au:",
+            "majorCities": "Brisbane, Gold Coast, Logan City, Townsville, Cairns"
+        },{
+            "offset": 10,
+            "timezone": "Australia/Currie",
+            "country": "Australia",
+            "flagEmoji": ":flag_au:",
+            "majorCities": ""
+        },{
+            "offset": 10,
+            "timezone": "Australia/Hobart",
+            "country": "Australia",
+            "flagEmoji": ":flag_au:",
+            "majorCities": "Hobart, Launceston, Burnie, Devonport, Sandy Bay"
+        },{
+            "offset": 10,
+            "timezone": "Australia/Lindeman",
+            "country": "Australia",
+            "flagEmoji": ":flag_au:",
+            "majorCities": ""
+        },{
+            "offset": 10,
+            "timezone": "Australia/Melbourne",
+            "country": "Australia",
+            "flagEmoji": ":flag_au:",
+            "majorCities": "Melbourne, Geelong, Bendigo, Ballarat, Melbourne City Centre"
+        },{
+            "offset": 10,
+            "timezone": "Australia/Sydney",
+            "country": "Australia",
+            "flagEmoji": ":flag_au:",
+            "majorCities": "Sydney, Canberra, Newcastle, Wollongong, Maitland"
+        },{
+            "offset": 10,
+            "timezone": "Pacific/Chuuk",
+            "country": "Micronesia",
+            "flagEmoji": ":flag_fm:",
+            "majorCities": "Weno, Colonia"
+        },{
+            "offset": 10,
+            "timezone": "Pacific/Guam",
+            "country": "Guam",
+            "flagEmoji": ":flag_gu:",
+            "majorCities": "Dededo Village, Yigo Village, Tamuning, Tamuning-Tumon-Harmon Village, Mangilao Village"
+        },{
+            "offset": 10,
+            "timezone": "Pacific/Port_Moresby",
+            "country": "Papua New Guinea",
+            "flagEmoji": ":flag_pg:",
+            "majorCities": "Port Moresby, Lae, Mount Hagen, Popondetta, Madang"
+        },{
+            "offset": 10,
+            "timezone": "Pacific/Saipan",
+            "country": "Northern Mariana Islands",
+            "flagEmoji": ":flag_mp:",
+            "majorCities": "Saipan, San Jose Village"
+        },{
+            "offset": 10,
+            "timezone": "Australia/Lord_Howe",
+            "country": "Australia",
+            "flagEmoji": ":flag_au:",
+            "majorCities": ""
+        },{
+            "offset": 11,
+            "timezone": "Antarctica/Casey",
+            "country": "Antarctica",
+            "flagEmoji": ":flag_aq:",
+            "majorCities": ""
+        },{
+            "offset": 11,
+            "timezone": "Asia/Magadan",
+            "country": "Russia",
+            "flagEmoji": ":flag_ru:",
+            "majorCities": "Magadan, Ust-Nera, Susuman, Ola"
+        },{
+            "offset": 11,
+            "timezone": "Asia/Sakhalin",
+            "country": "Russia",
+            "flagEmoji": ":flag_ru:",
+            "majorCities": "Yuzhno-Sakhalinsk, Korsakov, Kholmsk, Okha, Nevel’sk"
+        },{
+            "offset": 11,
+            "timezone": "Asia/Srednekolymsk",
+            "country": "Russia",
+            "flagEmoji": ":flag_ru:",
+            "majorCities": ""
+        },{
+            "offset": 11,
+            "timezone": "Pacific/Bougainville",
+            "country": "Papua New Guinea",
+            "flagEmoji": ":flag_pg:",
+            "majorCities": "Arawa, Buka"
+        },{
+            "offset": 11,
+            "timezone": "Pacific/Efate",
+            "country": "Vanuatu",
+            "flagEmoji": ":flag_vu:",
+            "majorCities": "Port-Vila, Luganville, Isangel, Sola, Lakatoro"
+        },{
+            "offset": 11,
+            "timezone": "Pacific/Guadalcanal",
+            "country": "Solomon Islands",
+            "flagEmoji": ":flag_sb:",
+            "majorCities": "Honiara, Malango, Auki, Gizo, Buala"
+        },{
+            "offset": 11,
+            "timezone": "Pacific/Kosrae",
+            "country": "Micronesia",
+            "flagEmoji": ":flag_fm:",
+            "majorCities": "Tofol"
+        },{
+            "offset": 11,
+            "timezone": "Pacific/Norfolk",
+            "country": "Norfolk Island",
+            "flagEmoji": ":flag_nf:",
+            "majorCities": "Kingston"
+        },{
+            "offset": 11,
+            "timezone": "Pacific/Noumea",
+            "country": "New Caledonia",
+            "flagEmoji": ":flag_nc:",
+            "majorCities": "Nouméa, Mont-Dore, Dumbéa, Païta, Wé"
+        },{
+            "offset": 11,
+            "timezone": "Pacific/Pohnpei",
+            "country": "Micronesia",
+            "flagEmoji": ":flag_fm:",
+            "majorCities": "Kolonia, Kolonia Town, Palikir - National Government Center"
+        },{
+            "offset": 12,
+            "timezone": "Antarctica/McMurdo",
+            "country": "Antarctica",
+            "flagEmoji": ":flag_aq:",
+            "majorCities": ""
+        },{
+            "offset": 12,
+            "timezone": "Asia/Anadyr",
+            "country": "Russia",
+            "flagEmoji": ":flag_ru:",
+            "majorCities": "Anadyr, Bilibino"
+        },{
+            "offset": 12,
+            "timezone": "Asia/Kamchatka",
+            "country": "Russia",
+            "flagEmoji": ":flag_ru:",
+            "majorCities": "Petropavlovsk-Kamchatsky, Yelizovo, Vilyuchinsk, Klyuchi, Mil’kovo"
+        },{
+            "offset": 12,
+            "timezone": "Pacific/Auckland",
+            "country": "New Zealand",
+            "flagEmoji": ":flag_nz:",
+            "majorCities": "Auckland, Wellington, Christchurch, Manukau City, North Shore"
+        },{
+            "offset": 12,
+            "timezone": "Pacific/Fiji",
+            "country": "Fiji",
+            "flagEmoji": ":flag_fj:",
+            "majorCities": "Suva, Lautoka, Nadi, Labasa, Ba"
+        },{
+            "offset": 12,
+            "timezone": "Pacific/Funafuti",
+            "country": "Tuvalu",
+            "flagEmoji": ":flag_tv:",
+            "majorCities": "Funafuti, Savave Village, Tanrake Village, Toga Village, Asau Village"
+        },{
+            "offset": 12,
+            "timezone": "Pacific/Kwajalein",
+            "country": "Marshall Islands",
+            "flagEmoji": ":flag_mh:",
+            "majorCities": "Ebaye, Jabat"
+        },{
+            "offset": 12,
+            "timezone": "Pacific/Majuro",
+            "country": "Marshall Islands",
+            "flagEmoji": ":flag_mh:",
+            "majorCities": "Majuro, Arno, Jabor, Wotje, Mili"
+        },{
+            "offset": 12,
+            "timezone": "Pacific/Nauru",
+            "country": "Nauru",
+            "flagEmoji": ":flag_nr:",
+            "majorCities": "Yaren, Baiti, Anabar, Uaboe, Ijuw"
+        },{
+            "offset": 12,
+            "timezone": "Pacific/Tarawa",
+            "country": "Kiribati",
+            "flagEmoji": ":flag_ki:",
+            "majorCities": "Tarawa, Betio Village, Bikenibeu Village"
+        },{
+            "offset": 12,
+            "timezone": "Pacific/Wake",
+            "country": "United States Minor Outlying Islands",
+            "flagEmoji": ":flag_um:",
+            "majorCities": ""
+        },{
+            "offset": 12,
+            "timezone": "Pacific/Wallis",
+            "country": "Wallis and Futuna",
+            "flagEmoji": ":flag_wf:",
+            "majorCities": "Mata-Utu, Leava, Alo"
+        },{
+            "offset": 12,
+            "timezone": "Pacific/Chatham",
+            "country": "New Zealand",
+            "flagEmoji": ":flag_nz:",
+            "majorCities": "Waitangi"
+        },{
+            "offset": 13,
+            "timezone": "Pacific/Apia",
+            "country": "Samoa",
+            "flagEmoji": ":flag_ws:",
+            "majorCities": "Apia, Asau, Mulifanua, Afega, Leulumoega"
+        },{
+            "offset": 13,
+            "timezone": "Pacific/Enderbury",
+            "country": "Kiribati",
+            "flagEmoji": ":flag_ki:",
+            "majorCities": ""
+        },{
+            "offset": 13,
+            "timezone": "Pacific/Fakaofo",
+            "country": "Tokelau",
+            "flagEmoji": ":flag_tk:",
+            "majorCities": "Atafu Village, Nukunonu, Fale old settlement"
+        },{
+            "offset": 13,
+            "timezone": "Pacific/Tongatapu",
+            "country": "Tonga",
+            "flagEmoji": ":flag_to:",
+            "majorCities": "Nuku‘alofa, Lapaha, Neiafu, Pangai, ‘Ohonua"
+        },{
+            "offset": 14,
+            "timezone": "Pacific/Kiritimati",
+            "country": "Kiribati",
+            "flagEmoji": ":flag_ki:",
+            "majorCities": ""
+        }
+]
