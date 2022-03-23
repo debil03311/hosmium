@@ -32,7 +32,12 @@ module.exports = {
         "...decryptionKey"
     ],
 
-    async execute({ message, commandArguments } = {}) {
+    /**
+     * @param {Message} message 
+     * @param {String[]} commandArguments 
+     * @returns 
+     */
+    async execute(message, commandArguments) {
         if (!commandArguments[2])
             return message.reply("This command requires three arguments.");
 

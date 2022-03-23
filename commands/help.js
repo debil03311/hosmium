@@ -1,4 +1,4 @@
-const { MessageEmbed } = require("discord.js");
+const { MessageEmbed, Collection } = require("discord.js");
 const config = require("../config.json");
 const quoteList = require("./data/quotes.json");
 
@@ -33,7 +33,13 @@ module.exports = {
         "command?"
     ],
 
-    execute({ message, commandArguments, commandList }={}) {
+    /**
+     * @param {Message} message 
+     * @param {String[]} commandArguments
+     * @param {Collection} commandList
+     * @returns 
+     */
+    execute(message, commandArguments, { commandList }={}) {
         // Initialize Discord embed without any entries
         const helpEmbed = new MessageEmbed({
             color: config.color,

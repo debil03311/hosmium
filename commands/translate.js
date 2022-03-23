@@ -24,7 +24,12 @@ module.exports = {
         "...text",
     ],
 
-    execute({ message, commandArguments } = {}) {
+    /**
+     * @param {Message} message 
+     * @param {String[]} commandArguments 
+     * @returns 
+     */
+    execute(message, commandArguments) {
         if (!config.deeplApiKey) {
             return message.reply(
                 "```arm\nError: Mising API key for DeepL```");

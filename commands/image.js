@@ -14,7 +14,12 @@ module.exports = {
         "...query"
     ],
 
-    async execute({ message, commandArguments } = {}) {
+    /**
+     * @param {Message} message 
+     * @param {String[]} commandArguments 
+     * @returns 
+     */
+    async execute(message, commandArguments) {
         if (!commandArguments.length) {
             return message.reply(
                 "This command requires an argument.");

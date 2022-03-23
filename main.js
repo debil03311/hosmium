@@ -12,12 +12,28 @@ const bot = new Client({
     ]
 });
 
+const stfuFilter =
+    /[\u4E00-\u9FBF\u3040-\u309F\u30A0-\u30FF\u3000-\u301F\u2026]/
+
+const pinTriggers = new RegExp(
+        ["pipe"].join("|")
+    );
+
 // Handle commands
 bot.on("messageCreate", (message) => {
     // Modest amounts of trolling
-    if (!message.author.bot
-    && message.content.match(/[\u4E00-\u9FBF\u3040-\u309F\u30A0-\u30FF\u3000-\u301F\u2026]/))
+    if (!message.author.bot && message.content.match(stfuFilter))
         message.reply("stfu");
+
+    // Pin the message
+    if (message.content.match(pinTriggers)) {
+        try {
+            message.pin();
+        } catch (ERROR) {
+            message.channel.send(
+                "```arm\n"+ERROR+"```");
+        }
+    }
 
     // Stop execution if the message doesn't start with
     // the correct prefix
@@ -43,28 +59,13 @@ bot.on("messageCreate", (message) => {
     commandArguments.shift();
 
     // Execute command if it's valid
-    commands.get(commandName)?.execute({
-        bot: bot,
-        message: message,
-        commandArguments: commandArguments,
-        commandList: commands,
-    });
+    commands.get(commandName)?.execute(
+        message, commandArguments, commandList)
 });
 
-// /**
-//  * Prepend zeroes to a single digit number
-//  * @param {Number} digit 
-//  * @param {Number} amount
-//  * @returns String
-//  */
-// function prefixZero(digit, amount = 0) {
-//     digit = Math.abs(digit).toString();
-
-//     if (digit > 10)
-//         return digit;
-
-//     return digit.padStart(amount+1, "0")
-// }
+bot.on("interactionCreate", (interaction)=> {
+    console.log(interaction);
+});
 
 bot.login(config.botToken);
 bot.on('ready', ()=> {

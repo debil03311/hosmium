@@ -8,21 +8,14 @@ class DangerU {
         this.color = "#f22e53";
         this.colorSecondary = "#72bfb1";
 
-        // The API does not return the board names
-        this.boardNames = {
-            a: "Anime & Manga",
-            burg: "Burg",
-            cyb: "Cyberpunk Life",
-            d: "Doujin",
-            lain: "Cyberpunk",
-            mu: "Music",
-            new: "News & Politics",
-            tech: "Technology",
-            test: "Awoo testing grounds",
-            u: "Random",
-            v: "Video Games",
-            all: "all",
+        this.thumbnails = {
+            default: "https://i.imgur.com/aWS6tJ2.png",
+            burg: "https://i.imgur.com/SCGM4yz.png",
+            angryBurg: "https://i.imgur.com/nEnvL9d.png",
         }
+
+        // The API does not include this data
+        this.boardData = require("../data/dangeru_board_data.json");
     }
 
     /**
@@ -49,8 +42,18 @@ class DangerU {
      * @param {String} boardName
      * @returns Object[]
      */
-    board(boardName) {
-        return this.fetch(`/board/${boardName}`)
+    board(boardName, pageNumber) {
+        return this.fetch(`/board/${boardName}?page=${pageNumber}`)
+            .then((response) => response.data);
+    }
+
+    /**
+     * Returns an array of the replies to the specified thread
+     * @param {Number} threadId
+     * @returns Object[]
+     */
+    thread(threadId) {
+        return this.fetch(`/thread/${threadId}/replies`)
             .then((response) => response.data);
     }
 }

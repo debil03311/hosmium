@@ -17,7 +17,12 @@ module.exports = {
 
     hidden: true,
     
-    execute({ message, commandArguments } = {}) {
+    /**
+     * @param {Message} message 
+     * @param {String[]} commandArguments 
+     * @returns 
+     */
+    execute(message, commandArguments) {
         // Current time
         const now = new Date();
 

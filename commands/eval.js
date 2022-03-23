@@ -6,7 +6,12 @@ module.exports = {
 
     hidden: true,
 
-    execute({ message, commandArguments } = {}) {
+    /**
+     * @param {Message} message 
+     * @param {String[]} commandArguments 
+     * @returns 
+     */
+    execute(message, commandArguments) {
         if (!commandArguments[0]) {
             message.reply("This command requires an argument.");
             return;

@@ -4,7 +4,11 @@ module.exports = {
         "latency"
     ],
 
-    execute({ message }={}) {
+    /**
+     * @param {Message} message 
+     * @returns 
+     */
+    execute(message) {
         // Subtract message timestamp from the current milliseconds
         const time = new Date().getTime() - message.createdTimestamp;
 

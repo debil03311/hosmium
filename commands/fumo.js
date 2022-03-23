@@ -77,7 +77,12 @@ module.exports = {
         "ᗜˬᗜ",
     ],
 
-    execute({ message, commandArguments } = {}) {
+    /**
+     * @param {Message} message 
+     * @param {String[]} commandArguments 
+     * @returns 
+     */
+    execute(message, commandArguments) {
         return replyWithFumo(
             message,
             !Boolean(commandArguments[0]),

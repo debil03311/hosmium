@@ -25,7 +25,12 @@ module.exports = {
         "city",
     ],
 
-    async execute({ message, commandArguments } = {}) {
+    /**
+     * @param {Message} message 
+     * @param {String[]} commandArguments 
+     * @returns 
+     */
+    async execute(message, commandArguments) {
         if (!commandArguments[0])
             return message.reply("This command requires an argument.");
 
