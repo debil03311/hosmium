@@ -1,14 +1,16 @@
-const { MessageEmbed, MessageReaction } = require("discord.js");
+const { MessageEmbed, MessageReaction, Message } = require("discord.js");
 const cloudscraper = require("cloudscraper");
 const cheerio = require("cheerio");
 
-const navigationEmoji = ['⬅️', '➡️'];
+// const navigationEmoji = ['⬅️', '➡️'];
+const numberEmoji = [ '0⃣', '1⃣', '2⃣', '3⃣', '4⃣', '5⃣', '6⃣', '7⃣', '8⃣', '9⃣' ]
 
 /**
  * @param {MessageReaction} reaction 
  */
 function navigationReactionFilter(reaction) {
-    navigationEmoji.includes(reaction.emoji.name);
+    return true;
+    return navigationEmoji.includes(reaction.emoji.name);
 }
 
 const DangerU = require("./modules/dangeru.js");
@@ -191,7 +193,7 @@ module.exports = {
                 }),
             });
 
-            message.reply({
+            const embedReply = await message.reply({
                     embeds: [
                         boardEmbed
                     ],
@@ -202,22 +204,31 @@ module.exports = {
                     }
                 })
                 .then(async (embedReply)=> {
-                    for (const emoji of navigationEmoji)
-                        await embedReply.react(emoji);
+                    const pageCount = dangeru.boardData[boardName].pageCount;
+
+                    for (let i = 1; i <= pageCount; i++)
+                        await embedReply.react(numberEmoji[i]);
+
+                    return embedReply;
                 });
+
+            console.log(embedReply);
  
             const navigationCollector =
-                message.createReactionCollector({
+                embedReply.createReactionCollector({
                     navigationReactionFilter,
                     time: 4*60*1000
                 });
 
-            navigationCollector.on("collect", (collected)=> {
-                console.log(collected);
+            console.log(navigationCollector);
+
+            navigationCollector.on("collect", (reaction, user)=> {
+                console.log(reaction);
+                console.log(user);
             });
 
             navigationCollector.on("end", (collected) => {
-                console.log("COLLECTION ENDED");
+                console.log(collected);
             });
         }
     }
