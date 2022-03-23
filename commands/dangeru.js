@@ -201,9 +201,9 @@ module.exports = {
                         repliedUser: false
                     }
                 })
-                .then((embedReply)=> {
-                    for (const emoji of navEmoji)
-                        embedReply.react(emoji);
+                .then(async (embedReply)=> {
+                    for (const emoji of navigationEmoji)
+                        await embedReply.react(emoji);
                 });
  
             const navigationCollector =

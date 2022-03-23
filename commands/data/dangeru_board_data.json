@@ -1,61 +1,61 @@
 {
     "a": {
         "name": "Anime & Manga",
-        "pageCount": 0
+        "pageCount": 1
     },
 
     "burg": {
         "name": "Burg",
-        "pageCount": 0
+        "pageCount": 2
     },
 
     "cyb": {
         "name": "Cyberpunk Life",
-        "pageCount": 0
+        "pageCount": 1
     },
 
     "d": {
         "name": "Doujin",
-        "pageCount": 0
+        "pageCount": 3
     },
 
     "lain": {
         "name": "Cyberpunk",
-        "pageCount": 0
+        "pageCount": 1
     },
 
     "mu": {
         "name": "Music",
-        "pageCount": 0
+        "pageCount": 1
     },
 
     "new": {
         "name": "News & Politics",
-        "pageCount": 0
+        "pageCount": 1
     },
 
     "tech": {
         "name": "Technology",
-        "pageCount": 0
+        "pageCount": 1
     },
 
     "test": {
         "name": "Awoo testing grounds",
-        "pageCount": 0
+        "pageCount": 1
     },
 
     "u": {
         "name": "Random",
-        "pageCount": 0
+        "pageCount": 5
     },
 
     "v": {
         "name": "Video Games",
-        "pageCount": 0
+        "pageCount": 2
     },
 
     "all": {
         "name": "all",
-        "pageCount": 0
+        "pageCount": 5
     }
 }
