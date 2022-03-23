@@ -60,7 +60,7 @@ bot.on("messageCreate", (message) => {
 
     // Execute command if it's valid
     commands.get(commandName)?.execute(
-        message, commandArguments, commandList)
+        message, commandArguments, commands)
 });
 
 bot.on("interactionCreate", (interaction)=> {

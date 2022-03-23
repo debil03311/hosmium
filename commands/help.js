@@ -39,7 +39,7 @@ module.exports = {
      * @param {Collection} commandList
      * @returns 
      */
-    execute(message, commandArguments, { commandList }={}) {
+    execute(message, commandArguments, commandList) {
         // Initialize Discord embed without any entries
         const helpEmbed = new MessageEmbed({
             color: config.color,
