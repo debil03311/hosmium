@@ -1,11 +1,19 @@
 module.exports = {
     description: "",
+    deephelp: [],
     aliases: [],
     arguments: [],
+    usage: [],
 
     hidden: true,
 
-    execute({ message } = {}) {
+    /**
+     * @param {Message} message 
+     * @param {String[]} commandArguments 
+     * @param {Collection} commands
+     * @param {Client} bot
+     */
+    execute(message, commandArguments, commands, bot) {
         // 
 
         message.reply({

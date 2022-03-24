@@ -1,20 +1,92 @@
-const { MessageEmbed, MessageReaction, Message } = require("discord.js");
+const { MessageEmbed, MessageReaction, Message, User } = require("discord.js");
 const cloudscraper = require("cloudscraper");
 const cheerio = require("cheerio");
 
-// const navigationEmoji = ['⬅️', '➡️'];
-const numberEmoji = [ '0⃣', '1⃣', '2⃣', '3⃣', '4⃣', '5⃣', '6⃣', '7⃣', '8⃣', '9⃣' ]
-
-/**
- * @param {MessageReaction} reaction 
- */
-function navigationReactionFilter(reaction) {
-    return true;
-    return navigationEmoji.includes(reaction.emoji.name);
-}
-
 const DangerU = require("./modules/dangeru.js");
 const dangeru = new DangerU();
+
+const numberEmoji = [ '0⃣', '1⃣', '2⃣', '3⃣', '4⃣', '5⃣', '6⃣', '7⃣', '8⃣', '9⃣' ];
+
+/**
+ * Generate a message embed for a danger/u/ board
+ * @param {String} boardName 
+ * @param {Number} pageNumber - Should start at 1
+ * @param {Object[]} threadList 
+ * @param {Message} message - Original command message
+ * @returns MessageEmbed 
+ */
+function generateBoardEmbed(boardName, pageNumber, threadList, message) {
+    return new MessageEmbed({
+        color: dangeru.color,
+        title: `danger/${boardName}/`,
+        description: `Page ${pageNumber}`,
+        url: `${dangeru.url}/${boardName}/?page=${pageNumber-1}`,
+
+        thumbnail: {
+            url: dangeru.thumbnails.default,
+        },
+
+        fields: threadList.map((thread) => {
+            // Determine thread emoji
+            // :pushpin:   Sticky (Pinned)
+            // :dorosleep: Locked
+            // :almahug:   Active
+            const emoji = (thread.sticky)
+                ? ":pushpin:"
+                : (thread.is_locked)
+                    ? "<:dorosleep:955469693026725899>"
+                    : "<:almahug:955478250795200543>"
+
+            return {
+                inline: true,
+                name: `${emoji} \`${thread.post_id}\`\n:hash: \`${thread.hash}\``,
+                value: thread.title ?? "*N/A*",
+            }
+        }),
+
+        footer: {
+            text: `Controller: ${message.author.username}#${message.author.discriminator}`
+        },
+    });
+}
+
+/**
+ * Generate a message embed for a danger/u/ board
+ * @param {String} boardName 
+ * @param {Object[]} postList 
+ * @param {Number} sliceOffset - What post to start showing from `(n -> n+10)`
+ * @param {Message} message - Original command message
+ * @returns MessageEmbed 
+ */
+function generateThreadEmbed(threadId, postList, sliceOffset=0, message) {
+    return new MessageEmbed({
+        color: dangeru.color,
+        title: "Open Thread",
+        url: "https://dangeru.us/",
+
+        thumbnail: {
+            url: dangeru.thumbnails.default,
+        },
+
+        fields: postList.slice(
+                sliceOffset,
+                sliceOffset+10
+            )
+            .map((postObject)=> {
+                const date = new Date(postObject.date_posted).toLocaleString("JA");
+                const isOp = (postObject.is_op)
+                    ? ":speech_balloon:"
+                    : ""
+                
+                // const threadTitle = (postObject.);
+
+                return {
+                    name: `${isOp} \`${postObject.post_id}\` \`#${postObject.hash}\` ${date} GMT`,
+                    value: postObject.comment.slice(0, 2048),
+                }
+            }),
+    });
+}
 
 module.exports = {
     description: "Browse danger/u/ through Discord.",
@@ -29,11 +101,11 @@ module.exports = {
         "threadId?",
     ],
     usage: [
-        "`dangeru boards` → List every board",
-        "`dangeru burgs` → Current state of the burgs",
-        "`dangeru tech` → All the threads on the first page of /tech/",
-        "`dangeru tech 4` → All the threads on page 4 of /tech/",
-        "`dangeru 842631` → Replies to thread no. 842631",
+        "`dangeru` `boards` → List every board",
+        "`dangeru` `burgs` → Current state of the burgs",
+        "`dangeru` `tech` → All the threads on the first page of /tech/",
+        "`dangeru` `tech 4` → All the threads on page 4 of /tech/",
+        "`dangeru` `842631` → Replies to thread no. 842631",
     ],
 
     hidden: true,
@@ -152,50 +224,69 @@ module.exports = {
             });
         }
 
+        // TODO: reply offset
+        // TODO: catch board doesn't exist
+        // TODO: figure out why /a/ doesn't work
+        // TODO: figure out why boards sometimes jump to the last page
+
         // Thread replies
         else if (threadId) {
-            const thread = await dangeru.thread(threadId);
-            console.log(thread);
+            const embedReply = await message.reply({
+                    embeds: [
+                        generateThreadEmbed(
+                            threadId,
+                            await dangeru.thread(threadId),
+                            0,
+                            message,
+                        ),
+                    ],
+
+                    // Without pinging
+                    allowedMentions: {
+                        repliedUser: false
+                    }
+                })
+                // .then(async (embedReply) => {
+                //     // Get the current board's amount of pages
+                //     const pageCount = dangeru.boardData[boardName].pageCount;
+
+                //     // Don't bother if there's only one page
+                //     if (pageCount < 2)
+                //         return embedReply;
+
+                //     // React with a number emoji for each page
+                //     for (let i = 1; i <= pageCount; i++)
+                //         await embedReply.react(numberEmoji[i]);
+
+                //     return embedReply;
+                // });
         }
 
         // Board threads
         else {
+            // Example: cyb
             const boardName = commandArguments[0];
-            const pageNumber = (commandArguments[1] -1) || 0;
 
-            const threadList = await dangeru.board(boardName, pageNumber);
-            // console.log(threadList);
+            // Should start at 1
+            const pageNumber = parseInt(commandArguments[1]) || 1;
 
-            const boardEmbed = new MessageEmbed({
-                color: dangeru.color,
-                title: `danger/${boardName}/`,
-                description: `Page ${pageNumber + 1}`,
-                url: `${dangeru.url}/${boardName}/?page=${pageNumber}`,
+            // Hardcoded information
+            const boardData = dangeru.boardData[boardName];
 
-                thumbnail: {
-                    url: dangeru.thumbnails.default,
-                },
-
-                fields: threadList.map((thread) => {
-                    const emoji = (thread.sticky)
-                        ? ":pushpin:"
-                        : (thread.is_locked)
-                            ? "<:dorosleep:955469693026725899>"
-                            : "<:almahug:955478250795200543>"
-
-                    const date = new Date(thread.date_posted).toUTCString();
-
-                    return {
-                        inline: true,
-                        name: `${emoji} \`${thread.post_id}\`\n:hash: \`${thread.hash}\``,
-                        value: thread.title ?? "*N/A*",
-                    }
-                }),
-            });
+            if (pageNumber > boardData.pageCount
+            ||  pageNumber < 1) {
+                return message.reply(
+                    `Page ${pageNumber} of **/${boardName}/** does not exist.`);
+            }
 
             const embedReply = await message.reply({
                     embeds: [
-                        boardEmbed
+                        generateBoardEmbed(
+                            boardName,
+                            pageNumber,
+                            await dangeru.board(boardName, pageNumber-1),
+                            message
+                        ),
                     ],
 
                     // Without pinging
@@ -204,31 +295,90 @@ module.exports = {
                     }
                 })
                 .then(async (embedReply)=> {
+                    // Get the current board's amount of pages
                     const pageCount = dangeru.boardData[boardName].pageCount;
 
+                    // Don't bother if there's only one page
+                    if (pageCount < 2)
+                        return embedReply;
+
+                    // React with a number emoji for each page
                     for (let i = 1; i <= pageCount; i++)
                         await embedReply.react(numberEmoji[i]);
 
                     return embedReply;
                 });
 
-            console.log(embedReply);
- 
+            /**
+             * This doesn't work for some reason
+             * Only collect number emoji 0-9 sent by the command initiator
+             * @param {MessageReaction} reaction 
+             * @param {User} reactionUser
+             */
+            const numberReactionFilter = (reaction, reactionUser) => {
+                return (reactionUser.id === message.author.id)
+                    && numberEmoji.includes(reaction.emoji.name)
+            }
+
+            // Reference to the collector
             const navigationCollector =
                 embedReply.createReactionCollector({
-                    navigationReactionFilter,
-                    time: 4*60*1000
+                    numberReactionFilter,
+                    time: 2*60*1000
                 });
 
-            console.log(navigationCollector);
+            navigationCollector.on("collect", async (reaction, reactionUser)=> {
+                // Check to see that the reaction is valid
+                if (!reactionUser.id === message.author.id
+                ||  !numberEmoji.includes(reaction.emoji.name)) {
+                    return;
+                }
 
-            navigationCollector.on("collect", (reaction, user)=> {
-                console.log(reaction);
-                console.log(user);
+                try {
+                    // Update reply embed
+                    embedReply.edit({
+                        embeds: [
+                            // Fetch new page with reaction number
+                            generateBoardEmbed(
+                                boardName,
+                                reaction.emoji.name[0],
+                                await dangeru.board(boardName, reaction.emoji.name[0]-1),
+                                message
+                            ),
+                        ],
+
+                        // Without pinging
+                        allowedMentions: {
+                            repliedUser: false
+                        }
+                    });
+                } catch (ERROR) {
+                    console.error(ERROR);
+                    console.error(`
+                        Board: /${boardName}/
+                        Page: ${boardNumber}/${pageCount}
+                        It's likely that there's only one page on this board.
+                    `);
+                }
             });
 
             navigationCollector.on("end", (collected) => {
-                console.log(collected);
+                // console.log("FINISHED");
+
+                const finalEmbed = embedReply.embeds[0];
+                finalEmbed.footer.text = "Session over."
+
+                // Update reply embed
+                embedReply.edit({
+                    embeds: [
+                        finalEmbed
+                    ],
+
+                    // Without pinging
+                    allowedMentions: {
+                        repliedUser: false
+                    }
+                });
             });
         }
     }

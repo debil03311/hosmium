@@ -8,7 +8,8 @@ const config = require('./config.json');
 const bot = new Client({
     intents: [
         Intents.FLAGS.GUILDS,
-        Intents.FLAGS.GUILD_MESSAGES
+        Intents.FLAGS.GUILD_MESSAGES,
+        Intents.FLAGS.GUILD_MESSAGE_REACTIONS,
     ]
 });
 
@@ -60,7 +61,7 @@ bot.on("messageCreate", (message) => {
 
     // Execute command if it's valid
     commands.get(commandName)?.execute(
-        message, commandArguments, commands)
+        message, commandArguments, commands, bot)
 });
 
 bot.on("interactionCreate", (interaction)=> {
