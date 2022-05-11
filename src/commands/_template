@@ -1,0 +1,34 @@
+const { MessageEmbed } = require("discord.js");
+const { SlashCommandBuilder } = require("@discordjs/builders");
+
+const commandData = new SlashCommandBuilder()
+  .setName("COMMAND_NAME")
+  .setDescription("COMMAND_DESCRIPTION")
+
+  .addStringOption((option)=> option
+    .setRequired(false)
+    .setName("OPTION_NAME")
+    .setDescription("OPTION_DESCRIPTION"))
+
+  .addStringOption((option)=> option
+    .setRequired(false)
+    .setName("hidden")
+    .setDescription("Only you will see the bot's reply")
+    .addChoices(global.utils.toChoiceObject("yes")))
+  .toJSON()
+
+module.exports = {
+  data: commandData,
+  
+  execute(interaction, options) {
+    const replyEmbed = new MessageEmbed()
+      .setColor(global.config.colors.default)
+      .setTitle("EMBED_TITLE")
+      .setDescription("EMBED_DESCRIPTION")
+
+    return interaction.reply({
+      embeds: [replyEmbed],
+      ephemeral: Boolean(options.get("hidden")?.value),
+    });
+  }
+}

@@ -1,20 +1,21 @@
 [
     {
         "code": "BG",
-        "fullName": "Bulgarian",
-        "flag": ":flag_bg:",
-        "names": [
+        "name": "Bulgarian",
+        "emoji": ":flag_bg:",
+        "aliases": [
             "bg",
             "bul",
             "bulgarian",
             "balgarski",
             "български"
         ]
-    },{
+    },
+    {
         "code": "CS",
-        "fullName": "Czech",
-        "flag": ":flag_cz:",
-        "names": [
+        "name": "Czech",
+        "emoji": ":flag_cz:",
+        "aliases": [
             "cs",
             "cze",
             "ces",
@@ -26,32 +27,35 @@
             "čeština",
             "český"
         ]
-    },{
+    },
+    {
         "code": "DA",
-        "fullName": "Danish",
-        "flag": ":flag_dk:",
-        "names": [
+        "name": "Danish",
+        "emoji": ":flag_dk:",
+        "aliases": [
             "da",
             "dan",
             "danish",
             "dansk"
         ]
-    },{
+    },
+    {
         "code": "DE",
-        "fullName": "German",
-        "flag": ":flag_de:",
-        "names": [
+        "name": "German",
+        "emoji": ":flag_de:",
+        "aliases": [
             "de",
             "deu",
             "ger",
             "german",
             "deutsch"
         ]
-    },{
+    },
+    {
         "code": "EL",
-        "fullName": "Greek",
-        "flag": ":flag_gr:",
-        "names": [
+        "name": "Greek",
+        "emoji": ":flag_gr:",
+        "aliases": [
             "el",
             "ell",
             "gre",
@@ -59,36 +63,40 @@
             "ellinika",
             "ελληνικά"
         ]
-    },{
+    },
+    {
         "code": "EN",
-        "fullName": "English",
-        "flag": ":flag_us:",
-        "names": [
+        "name": "English",
+        "emoji": ":flag_us:",
+        "aliases": [
             "en",
             "eng",
             "english"
         ]
-    },{
+    },
+    {
         "code": "EN-US",
-        "fullName": "American English",
-        "flag": ":flag_us:",
-        "names": [
-            "en-us",
-            "us"
+        "name": "American English",
+        "emoji": ":flag_us:",
+        "aliases": [
+            "us",
+            "american"
         ]
-    },{
+    },
+    {
         "code": "EN-GB",
-        "fullName": "British English",
-        "flag": ":flag_gb:",
-        "names": [
-            "en-gb",
-            "gb"
+        "name": "British English",
+        "emoji": ":flag_gb:",
+        "aliases": [
+            "gb",
+            "british"
         ]
-    },{
+    },
+    {
         "code": "ES",
-        "fullName": "Spanish",
-        "flag": ":flag_es:",
-        "names": [
+        "name": "Spanish",
+        "emoji": ":flag_es:",
+        "aliases": [
             "es",
             "esp",
             "spa",
@@ -96,63 +104,69 @@
             "espanol",
             "español"
         ]
-    },{
+    },
+    {
         "code": "ET",
-        "fullName": "Estonian",
-        "flag": ":flag_et:",
-        "names": [
+        "name": "Estonian",
+        "emoji": ":flag_et:",
+        "aliases": [
             "et",
             "est",
             "estonian",
             "eesti"
         ]
-    },{
+    },
+    {
         "code": "FI",
-        "fullName": "Finnish",
-        "flag": ":flag_fi:",
-        "names": [
+        "name": "Finnish",
+        "emoji": ":flag_fi:",
+        "aliases": [
             "fi",
             "fin",
             "finnish",
             "suomen"
         ]
-    },{
+    },
+    {
         "code": "FR",
-        "fullName": "French",
-        "flag": ":flag_fr:",
-        "names": [
+        "name": "French",
+        "emoji": ":flag_fr:",
+        "aliases": [
             "fr",
             "fra",
             "french",
             "francais",
             "français"
         ]
-    },{
+    },
+    {
         "code": "HU",
-        "fullName": "Hungarian",
-        "flag": ":flag_hu:",
-        "names": [
+        "name": "Hungarian",
+        "emoji": ":flag_hu:",
+        "aliases": [
             "hu",
             "hun",
             "hungarian",
             "magyar"
         ]
-    },{
+    },
+    {
         "code": "IT",
-        "fullName": "Italian",
-        "flag": ":flag_it:",
-        "names": [
+        "name": "Italian",
+        "emoji": ":flag_it:",
+        "aliases": [
             "it",
             "ita",
             "italian",
             "italiano",
             "italiana"
         ]
-    },{
+    },
+    {
         "code": "JA",
-        "fullName": "Japanese",
-        "flag": ":flag_jp:",
-        "names": [
+        "name": "Japanese",
+        "emoji": ":flag_jp:",
+        "aliases": [
             "ja",
             "jp",
             "jap",
@@ -164,53 +178,58 @@
             "日本語",
             "和語"
         ]
-    },{
+    },
+    {
         "code": "LT",
-        "fullName": "Lithuanian",
-        "flag": ":flag_lt:",
-        "names": [
+        "name": "Lithuanian",
+        "emoji": ":flag_lt:",
+        "aliases": [
             "lt",
             "lit",
             "lithuanian",
             "lietuviu",
             "lietuvių"
         ]
-    },{
+    },
+    {
         "code": "LV",
-        "fullName": "Latvian",
-        "flag": ":flag_lv:",
-        "names": [
+        "name": "Latvian",
+        "emoji": ":flag_lv:",
+        "aliases": [
             "lv",
             "lav",
             "latvian",
             "latviešu"
         ]
-    },{
+    },
+    {
         "code": "NL",
-        "fullName": "Dutch",
-        "flag": ":flag_nl:",
-        "names": [
+        "name": "Dutch",
+        "emoji": ":flag_nl:",
+        "aliases": [
             "nl",
             "ndl",
             "dut",
             "dutch",
             "nederlands"
         ]
-    },{
+    },
+    {
         "code": "PL",
-        "fullName": "Polish",
-        "flag": ":flag_pl:",
-        "names": [
+        "name": "Polish",
+        "emoji": ":flag_pl:",
+        "aliases": [
             "pl",
             "pol",
             "polish",
             "polski"
         ]
-    },{
+    },
+    {
         "code": "PT",
-        "fullName": "Portuguese",
-        "flag": ":flag_pt:",
-        "names": [
+        "name": "Portuguese",
+        "emoji": ":flag_pt:",
+        "aliases": [
             "pt",
             "por",
             "prt",
@@ -218,29 +237,32 @@
             "portugues",
             "português"
         ]
-    },{
+    },
+    {
         "code": "PT-PT",
-        "fullName": "Portuguese",
-        "flag": ":flag_pt:",
-        "names": [
+        "name": "Portuguese",
+        "emoji": ":flag_pt:",
+        "aliases": [
             "pt-pt"
         ]
-    },{
+    },
+    {
         "code": "PT-BR",
-        "fullName": "Brazillian Portuguese",
-        "flag": ":flag_br:",
-        "names": [
+        "name": "Brazillian Portuguese",
+        "emoji": ":flag_br:",
+        "aliases": [
             "pt-br",
             "br",
             "bra",
             "brz",
             "brazillian"
         ]
-    },{
+    },
+    {
         "code": "RO",
-        "fullName": "Romanian",
-        "flag": ":flag_ro:",
-        "names": [
+        "name": "Romanian",
+        "emoji": ":flag_ro:",
+        "aliases": [
             "ro",
             "rou",
             "rom",
@@ -248,11 +270,12 @@
             "romana",
             "română"
         ]
-    },{
+    },
+    {
         "code": "RU",
-        "fullName": "Russian",
-        "flag": ":flag_ru:",
-        "names": [
+        "name": "Russian",
+        "emoji": ":flag_ru:",
+        "aliases": [
             "ru",
             "rus",
             "russian",
@@ -261,11 +284,12 @@
             "ruski",
             "русский"
         ]
-    },{
+    },
+    {
         "code": "SK",
-        "fullName": "Slovak",
-        "flag": ":flag_sk:",
-        "names": [
+        "name": "Slovak",
+        "emoji": ":flag_sk:",
+        "aliases": [
             "sk",
             "slo",
             "slk",
@@ -276,11 +300,12 @@
             "slovenčina",
             "slovenský"
         ]
-    },{
+    },
+    {
         "code": "SL",
-        "fullName": "Slovene",
-        "flag": ":flag_sl:",
-        "names": [
+        "name": "Slovene",
+        "emoji": ":flag_sl:",
+        "aliases": [
             "sl",
             "slv",
             "slovene",
@@ -290,28 +315,34 @@
             "slovenski",
             "slovenščina"
         ]
-    },{
+    },
+    {
         "code": "SV",
-        "fullName": "Swedish",
-        "flag": ":flag_sv:",
-        "names": [
+        "name": "Swedish",
+        "emoji": ":flag_sv:",
+        "aliases": [
             "sv",
             "swe",
             "swedish",
             "svenska"
         ]
-    },{
+    },
+    {
         "code": "ZH",
-        "fullName": "Chinese",
-        "flag": ":flag_cn:",
-        "names": [
+        "name": "Chinese",
+        "emoji": ":flag_cn:",
+        "aliases": [
             "zh",
             "cn",
             "chi",
+            "chn",
             "zho",
+            "zhong",
             "chinese",
             "zhongwen",
-            "中文"
+            "中文",
+            "putonghua",
+            "普通话"
         ]
     }
 ]

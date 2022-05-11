@@ -1,0 +1,12 @@
+images:
+  logo: https://i.imgur.com/wQIGnlD.png
+  minecraft:
+    server:
+      color: https://i.imgur.com/6aEN3Zz.jpg
+      gray: https://i.imgur.com/0Bv5xpL.png
+
+colors:
+  default: "#987353"
+  failure: "#F05454"
+  success: "#03C4A1"
+  minecraft: "#2d9b55"

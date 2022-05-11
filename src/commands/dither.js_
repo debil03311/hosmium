@@ -1,0 +1,51 @@
+const { MessageEmbed } = require("discord.js");
+const { SlashCommandBuilder } = require("@discordjs/builders");
+
+const jimp = require("jimp");
+const mcfsd = require("mcfsd");
+
+let intensityDefault = 32;
+
+const commandData = new SlashCommandBuilder()
+  .setName("dither")
+  .setDescription("Apply a dithering effect to an image")
+
+  .addAttachmentOption((option)=> option
+    .setRequired(true)
+    .setName("image")
+    .setDescription("The image you want to dither"))
+
+  .addNumberOption((option)=> option
+    .setRequired(false)
+    .setName("intensity")
+    .setDescription(`% of dithering to apply (${intensityDefault}% by default)`))
+
+  .addStringOption((option)=> option
+    .setRequired(false)
+    .setName("hidden")
+    .setDescription("Only you will see the bot's reply")
+    .addChoices(global.utils.toChoiceObject("yes")))
+  .toJSON()
+
+module.exports = {
+  data: commandData,
+  
+  execute(interaction, options) {
+    const image = options.get("image");
+
+    console.log(image);
+    console.log(interaction);
+
+    const intensityArgument = options.get("intentisty")?.value
+
+    const replyEmbed = new MessageEmbed()
+      .setColor(global.config.colors.default)
+      .setTitle("this shit's fucked")
+      // .setDescription("EMBED_DESCRIPTION")
+
+    // return interaction.reply({
+    //   embeds: [replyEmbed],
+    //   ephemeral: Boolean(options.get("hidden")?.value),
+    // });
+  }
+}
