@@ -6,7 +6,7 @@ A Discord bot that will hopefully do things.
 
 Make sure you have [Node.js](https://nodejs.org/en/) installed.
 
-1. Create a file called `.env` in hosmium's root directory (where `index.js` is located)
+1. Create a file called `.env` in hosmium's root directory (where `package.json` is located)
 2. Copy paste this inside of it:
    ```bash
    DISCORD_BOT_TOKEN=
