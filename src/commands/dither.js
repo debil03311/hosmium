@@ -30,22 +30,18 @@ const commandData = new SlashCommandBuilder()
 module.exports = {
   data: commandData,
   
-  execute(interaction, options) {
-    const image = options.get("image");
-
-    console.log(image);
-    console.log(interaction);
-
-    const intensityArgument = options.get("intentisty")?.value
+  async execute(interaction) {
+    console.log(interaction.options.__proto__);
+    console.log(interaction.options.get("image"));
+    console.log(interaction.options.getAttachment("image"));
 
     const replyEmbed = new MessageEmbed()
-      .setColor(global.config.colors.default)
-      .setTitle("this shit's fucked")
-      // .setDescription("EMBED_DESCRIPTION")
+      .setTitle("EMBED TITLE")
+      .setDescription("EMBED DESCRIPTION")
 
-    // return interaction.reply({
-    //   embeds: [replyEmbed],
-    //   ephemeral: Boolean(options.get("hidden")?.value),
-    // });
+    return interaction.reply({
+      embeds: [replyEmbed],
+      ephemeral: Boolean(interaction.options.get("hidden")?.value),
+    });
   }
 }

@@ -11,6 +11,8 @@ Make sure you have [Node.js](https://nodejs.org/en/) installed.
    ```bash
    DISCORD_BOT_TOKEN=
    DEEPL_API_KEY=
+   OPENAI_API_KEY=
+   OPENAI_ORGANIZATION_ID=
    ```
 3. Add your tokens after the `=` signs.
 4. Run `npm install`

@@ -17,6 +17,14 @@ const commands = require(`${__dirname}/commands.js`);
 const makeMinecraftServerEmbed = require(
   `${__dirname}/commands/mc-ping.js`).makeEmbed;
 
+// OpenAI
+const { Configuration, OpenAIApi } = require("openai");
+
+const openai = new OpenAIApi(new Configuration({
+  apiKey: process.env.OPENAI_API_KEY,
+  organization: process.env.OPENAI_ORGANIZATION_ID,
+}));
+
 // Grant the bot the necessary permissions
 const client = new Client({
   intents: [
@@ -51,21 +59,39 @@ const messagePinTriggers = [
   /pip(e|ing)/
 ]
 
-client.on("messageCreate", (message)=> {
+client.on("messageCreate", async (message)=> {
   if (message.author.bot)
     return;
 
   for (const pattern of messagePinTriggers)
     if (message.content.match(pattern))
       message.pin().catch(console.error);
+
+  // If bot is mentioned, reply with OpenAI response
+  if (process.env.OPENAI_API_KEY
+  &&  process.env.OPENAI_ORGANIZATION_ID
+  &&  message.content.startsWith(client.user)) {
+    const response = await openai.createCompletion({
+      model: "text-davinci-002",
+      max_tokens: 512,
+      temperature: 0.4,
+      // remove bot mention
+      prompt: message.content.slice(client.user.id.length + 4),
+    });
+
+    message.reply({
+      content: response.data.choices[0].text.trim().slice(0, 2000),
+      allowedMentions: { repliedUser: false },
+    });
+  }
 });
 
 // For commands, buttons and whatnot
 client.on("interactionCreate", async (interaction)=> {
-  console.log(interaction);
-
   if (interaction.user.bot)
     return;
+
+  console.log(interaction);
 
   if (interaction.customId === "minecraft_server_refresh") {
     // I can't do anything about discord's
