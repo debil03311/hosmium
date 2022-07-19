@@ -73,8 +73,8 @@ client.on("messageCreate", async (message)=> {
   &&  message.content.startsWith(client.user)) {
     const response = await openai.createCompletion({
       model: "text-davinci-002",
-      max_tokens: 512,
-      temperature: 0.4,
+      max_tokens: 256,
+      temperature: 0.2,
       // remove bot mention
       prompt: message.content.slice(client.user.id.length + 4),
     });

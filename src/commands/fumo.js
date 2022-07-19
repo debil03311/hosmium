@@ -1,6 +1,8 @@
 const { MessageEmbed } = require("discord.js");
 const { SlashCommandBuilder } = require("@discordjs/builders");
-const fumoApi = require("fumo-api");
+
+const { FumoClient } = require("fumo-api");
+const fumoApi = new FumoClient();
 
 const videoFormats = ["mp4", "webm", "mkv", "mov"];
 
@@ -29,8 +31,8 @@ module.exports = {
 
     try {
       const fumo = (id)
-        ? await fumoApi.getFumoByID(id, true)
-        : await fumoApi.randomFumo(true)
+        ? await fumoApi.specific(id)
+        : await fumoApi.random()
 
       const fileExtension = fumo.URL
         .split("/").reverse()[0] // filename
