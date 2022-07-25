@@ -1,5 +1,4 @@
-const { MessageEmbed } = require("discord.js");
-const { SlashCommandBuilder } = require("@discordjs/builders");
+const { EmbedBuilder, SlashCommandBuilder } = require("discord.js");
 
 const { FumoClient } = require("fumo-api");
 const fumoApi = new FumoClient();
@@ -40,7 +39,7 @@ module.exports = {
       
       const isVideo = videoFormats.includes(fileExtension);
       
-      const fumoEmbed = new MessageEmbed()
+      const fumoEmbed = new EmbedBuilder()
         .setColor(global.config.colors.default)
         .setURL(fumo.URL)
         .setTitle("Open Image")

@@ -1,5 +1,4 @@
-const { SlashCommandBuilder } = require("@discordjs/builders");
-const { MessageEmbed } = require("discord.js");
+const { EmbedBuilder, SlashCommandBuilder } = require("discord.js");
 const axios = require("axios");
 
 const bitSizes = [128, 192, 256];
@@ -59,7 +58,7 @@ module.exports = {
 
     const inputShort = global.utils.shortenText(input, 4);
 
-    const replyEmbed = new MessageEmbed()
+    const replyEmbed = new EmbedBuilder()
       .setColor(global.config.colors.success)
       .setDescription("")
 

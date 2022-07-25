@@ -1,5 +1,4 @@
-const { MessageEmbed } = require("discord.js");
-const { SlashCommandBuilder } = require("@discordjs/builders");
+const { EmbedBuilder, SlashCommandBuilder } = require("discord.js");
 const axios = require("axios");
 
 const baseUrl = "";
@@ -37,7 +36,7 @@ module.exports = {
       
       interaction.reply({
         embeds: [
-          new MessageEmbed()
+          new EmbedBuilder()
             .setColor(global.config.colors.default)
             .setURL(imageUrl.replace(/\.png.*/, ""))
             .setTitle(`Weather forecast for ${cityName}`)

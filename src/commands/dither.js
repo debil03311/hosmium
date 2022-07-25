@@ -1,8 +1,7 @@
-const { MessageEmbed } = require("discord.js");
-const { SlashCommandBuilder } = require("@discordjs/builders");
+const { EmbedBuilder, SlashCommandBuilder } = require("discord.js");
 
-const jimp = require("jimp");
-const mcfsd = require("mcfsd");
+// const jimp = require("jimp");
+// const mcfsd = require("mcfsd");
 
 let intensityDefault = 32;
 
@@ -35,7 +34,7 @@ module.exports = {
     console.log(interaction.options.get("image"));
     console.log(interaction.options.getAttachment("image"));
 
-    const replyEmbed = new MessageEmbed()
+    const replyEmbed = new EmbedBuilder()
       .setTitle("EMBED TITLE")
       .setDescription("EMBED DESCRIPTION")
 

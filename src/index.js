@@ -2,7 +2,7 @@
 require('dotenv').config();
 
 // Imports
-const { Client, Intents } = require("discord.js");
+const { Client, GatewayIntentBits } = require("discord.js");
 const { readFileSync } = require("fs");
 
 // Globals
@@ -28,9 +28,9 @@ const openai = new OpenAIApi(new Configuration({
 // Grant the bot the necessary permissions
 const client = new Client({
   intents: [
-    Intents.FLAGS.GUILDS,
-    Intents.FLAGS.GUILD_MESSAGES,
-    Intents.FLAGS.GUILD_MESSAGE_REACTIONS,
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.GuildMessageReactions,
   ]
 });
 
@@ -104,9 +104,10 @@ client.on("interactionCreate", async (interaction)=> {
     interaction.message.edit({ embeds: [newEmbed] });
   }
 
-  if (interaction.isCommand()) {
+  if (interaction.isChatInputCommand()) {
     // Ok bro actually fuck subcommands and this
     // whole stupid ass ass interaction system
+    // Update: they got even worse somehow
 
     const command = commands.find((command)=>
       command.data.name === interaction.commandName)

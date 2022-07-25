@@ -1,5 +1,4 @@
-const { MessageEmbed } = require("discord.js");
-const { SlashCommandBuilder } = require("@discordjs/builders");
+const { EmbedBuilder, SlashCommandBuilder } = require("discord.js");
 const deepl = require("deepl");
 
 const languageData = require("./data/languages.json");
@@ -77,7 +76,7 @@ module.exports = {
     if (!target) {
       return interaction.reply({
         embeds: [
-          new MessageEmbed()
+          new EmbedBuilder()
             .setColor(global.config.colors.failure)
             .setTitle(`:no_entry_sign: Invalid identifier: __${targetArgument}__`)
             .setDescription(`**Available languages:** ${languageNamesString}`)
@@ -109,18 +108,17 @@ module.exports = {
         ,
       }
       
-      const translationEmbed = new MessageEmbed()
+      const translationEmbed = new EmbedBuilder()
         .setColor(global.config.colors.default)
-        // .setTitle(`${deeplSource.name} ${deeplSource.emoji} → ${target.emoji} ${target.name}`)
-        // .setDescription(translation.text)
-        .addField(
-          `${deeplSource.emoji} ${deeplSource.name}`,
-          text || "N/A",
-          true)
-        .addField(
-          `${target.emoji} ${target.name}`,
-          translation.text || "N/A",
-          true)
+        .addFields({
+            name: `${deeplSource.emoji} ${deeplSource.name}`,
+            value: text || "N/A",
+            inline: true,
+          },{
+            name: `${target.emoji} ${target.name}`,
+            value: translation.text || "N/A",
+            inline: true,
+          })
       
       return interaction.reply({
         embeds: [translationEmbed],

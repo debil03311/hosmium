@@ -1,5 +1,11 @@
-const { MessageEmbed, MessageActionRow, MessageButton } = require("discord.js");
-const { SlashCommandBuilder } = require("@discordjs/builders");
+const {
+  EmbedBuilder,
+  ActionRowBuilder,
+  ButtonBuilder,
+  ButtonStyle,
+  SlashCommandBuilder
+} = require("discord.js");
+
 const { pingWithPromise } = require("minecraft-ping-js");
 
 async function makeEmbed(address, port) {
@@ -7,19 +13,26 @@ async function makeEmbed(address, port) {
     .catch((ERROR)=> ERROR)
 
   if (data instanceof Error) {
-    return new MessageEmbed()
+    return new EmbedBuilder()
       .setColor(global.config.colors.failure)
       .setThumbnail(global.config.images.minecraft.server.gray)
       .setTitle(`${address}:${port}`)
       .setDescription(`\`${data}\``)
   }
 
-  const infoEmbed = new MessageEmbed()
+  const infoEmbed = new EmbedBuilder()
     .setColor(global.config.colors.minecraft)
     .setThumbnail(global.config.images.minecraft.server.color)
     .setTitle(`${address}:${port}`)
-    .addField("Version", data.version.name, true)
-    .addField("Online", `${data.players.online}/${data.players.max}`, true)
+    .addFields({
+        name: "Version",
+        value: data.version.name,
+        inline: true,
+      },{
+        name: "Online",
+        value: `${data.players.online}/${data.players.max}`,
+        inline: true,
+      })
   
   if (data.description.text)
     infoEmbed.setDescription(data.description.text);
@@ -36,15 +49,16 @@ async function makeEmbed(address, port) {
   }
 
   if (data.players.sample?.length) {
-    infoEmbed.addField(
-      "Players",
-      data.players.sample
-        // Remove minecraft formatting codes and make players italic
-        .map((player)=> global.utils.wrapText(
-          player.name.replace(/§./g, ""), "*"))
-        .join(" ")
-        .slice(0, 1000),
-      false)
+    infoEmbed.addFields({
+        name: "Players",
+        value: data.players.sample
+          // Remove minecraft formatting codes and make players italic
+          .map((player)=> global.utils.wrapText(
+            player.name.replace(/§./g, ""), "*"))
+          .join(" ")
+          .slice(0, 1000),
+        inline: false,
+      })
   }
 
   return infoEmbed;
@@ -89,12 +103,12 @@ module.exports = {
       components: (isHidden)
         ? null
         : [
-          new MessageActionRow()
+          new ActionRowBuilder()
             .addComponents(
-              new MessageButton()
+              new ButtonBuilder()
                 .setCustomId("minecraft_server_refresh")
                 .setLabel("Refresh")
-                .setStyle("SECONDARY"))
+                .setStyle(ButtonStyle.Secondary))
         ]
       ,
 

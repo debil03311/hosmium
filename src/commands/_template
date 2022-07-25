@@ -1,5 +1,4 @@
-const { MessageEmbed } = require("discord.js");
-const { SlashCommandBuilder } = require("@discordjs/builders");
+const { MessageEmbed, SlashCommandBuilder } = require("discord.js");
 
 const commandData = new SlashCommandBuilder()
   .setName("COMMAND_NAME")
@@ -25,6 +24,11 @@ module.exports = {
       .setColor(global.config.colors.default)
       .setTitle("EMBED_TITLE")
       .setDescription("EMBED_DESCRIPTION")
+      .setFields({
+          name: "FIELD_NAME",
+          value: "FILED_VALUE",
+          inline: false,
+        })
 
     return interaction.reply({
       embeds: [replyEmbed],

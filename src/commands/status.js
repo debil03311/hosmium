@@ -1,5 +1,4 @@
-const { MessageEmbed } = require("discord.js");
-const { SlashCommandBuilder } = require("@discordjs/builders");
+const { EmbedBuilder, SlashCommandBuilder } = require("discord.js");
 
 const commandData = new SlashCommandBuilder()
   .setName("status")
@@ -34,33 +33,34 @@ module.exports = {
     
     interaction.reply({
       embeds: [
-        new MessageEmbed()
+        new EmbedBuilder()
           .setColor(global.config.colors.default)
 
-          .addField(
-            "Uptime",
-            uptimeString,
-            true)
-          .addField(
-            "Ping",
-            new Date() - interaction.createdTimestamp + "ms",
-            true)
-          .addField(
-            "Memory",
-            Math.floor(process.memoryUsage().heapUsed / 1024 / 1024) + "MB",
-            true)
-          .addField(
-            "Birthday",
-            bot.user.createdAt.toLocaleDateString("JA"),
-            true)
-          .addField(
-            "Servers",
-            bot.guilds.cache.size.toString(),
-            true)
-          .addField(
-            "Node",
-            process.version,
-            true)
+          .addFields({
+              name: "Uptime",
+              value: uptimeString,
+              inline: true,
+            },{
+              name: "Ping",
+              value: new Date() - interaction.createdTimestamp + "ms",
+              inline: true,
+            },{
+              name: "Memory",
+              value: Math.floor(process.memoryUsage().heapUsed / 1024 / 1024) + "MB",
+              inline: true,
+            },{
+              name: "Birthday",
+              value: bot.user.createdAt.toLocaleDateString("JA"),
+              inline: true,
+            },{
+              name: "Servers",
+              value: bot.guilds.cache.size.toString(),
+              inline: true,
+            },{
+              name: "Node",
+              value: process.version,
+              inline: true,
+            })
 
           .setFooter({
             text: `${bot.user.username}#${bot.user.discriminator}`,

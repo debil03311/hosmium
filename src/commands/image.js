@@ -1,5 +1,4 @@
-const { MessageEmbed } = require("discord.js");
-const { SlashCommandBuilder } = require("@discordjs/builders");
+const { EmbedBuilder, SlashCommandBuilder } = require("discord.js");
 
 const cloudscraper = require("cloudscraper");
 const cheerio = require("cheerio");
@@ -67,7 +66,7 @@ module.exports = {
       .map((anchor)=> anchor.attribs.href)
     
     if (!urls.length) {
-      const errorEmbed = new MessageEmbed()
+      const errorEmbed = new EmbedBuilder()
         .setColor(global.config.colors.failure)
         .setTitle(`The query __${query}__ yielded no results.`)
 
@@ -88,13 +87,20 @@ module.exports = {
     const resultIndex = Math.floor(Math.random() * resultAmount);
     const imageUrl = urls[resultIndex];
     
-    const imageEmbed = new MessageEmbed()
+    const imageEmbed = new EmbedBuilder()
       .setColor(global.config.colors.default)
       .setURL(imageUrl)
       .setTitle("Open Image")
       .setImage(imageUrl)
-      .addField("Query", query, true)
-      .addField("Result", `${resultIndex + 1} of ${resultAmount}`, true)
+      .addFields({
+          name: "Query", 
+          value: query,
+          inline: true
+        },{
+          name: "Result", 
+          value: `${resultIndex + 1} of ${resultAmount}`,
+          inline: true
+        })
     
     if (isBadWord)
       imageEmbed.addField("\u2800", global.emoji.froup, true);

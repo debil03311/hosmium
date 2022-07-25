@@ -1,5 +1,4 @@
-const { MessageEmbed } = require("discord.js");
-const { SlashCommandBuilder } = require("@discordjs/builders");
+const { EmbedBuilder, SlashCommandBuilder } = require("discord.js");
 
 const quotes = require(`${__dirname}/data/quotes.json`);
 
@@ -49,7 +48,7 @@ module.exports = {
       .map(toNumberEmoji)
       .join("")
 
-    const replyEmbed = new MessageEmbed()
+    const replyEmbed = new EmbedBuilder()
       .setColor(global.config.colors.default)
       .setTitle(`:hash:${quoteNumber}`)
       .setDescription(quote.info.text)
