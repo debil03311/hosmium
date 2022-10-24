@@ -1,4 +1,4 @@
-const { MessageEmbed, SlashCommandBuilder } = require("discord.js");
+const { EmbedBuilder, SlashCommandBuilder } = require("discord.js");
 
 const commandData = new SlashCommandBuilder()
   .setName("dice")
@@ -27,7 +27,7 @@ module.exports = {
       diceFaces[faceIndices[1]],
     ];
 
-    const replyEmbed = new MessageEmbed()
+    const replyEmbed = new EmbedBuilder()
       .setColor(global.config.colors.default)
       .setTitle(`**${interaction.user.tag}** rolls a dice... ${die[0]} ${die[1]} (${faceIndices[0]} ${faceIndices[1]})`)
       .setDescription(`Total: **${faceIndices[0] + faceIndices[1]}**`)
