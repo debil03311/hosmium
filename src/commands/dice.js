@@ -30,7 +30,7 @@ module.exports = {
     const replyEmbed = new EmbedBuilder()
       .setColor(global.config.colors.default)
       .setTitle(`${interaction.user.tag} rolls a dice...`)
-      .setDescription(`${die[0]} ${die[1]} (${faceIndices[0]} ${faceIndices[1]})\nTotal: **${faceIndices[0] + faceIndices[1] + 2}**`)
+      .setDescription(`${die[0]} ${die[1]} (${faceIndices[0] + 1} ${faceIndices[1] + 1})\nTotal: **${faceIndices[0] + faceIndices[1] + 2}**`)
 
     return interaction.reply({
       embeds: [replyEmbed],
