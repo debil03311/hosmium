@@ -1,13 +1,8 @@
-const { Interaction, MessageEmbed, SlashCommandBuilder } = require("discord.js");
+const { MessageEmbed, SlashCommandBuilder } = require("discord.js");
 
 const commandData = new SlashCommandBuilder()
-  .setName("COMMAND_NAME")
-  .setDescription("COMMAND_DESCRIPTION")
-
-  .addStringOption((option)=> option
-    .setRequired(false)
-    .setName("OPTION_NAME")
-    .setDescription("OPTION_DESCRIPTION"))
+  .setName("dice")
+  .setDescription("Throw a pair of dice and see what you get.")
 
   .addStringOption((option)=> option
     .setRequired(false)
